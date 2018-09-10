@@ -9,10 +9,10 @@
 
 ## :speech_balloon: Contents
 
-- [Introduction](##Introduction)
-- [OOP vs Functional](##OOP-vs-Functional)
+- [Introduction](#Introduction)
+- [OOP vs Functional](#OOP-vs-Functional)
     - :boom: 간단한 차이점
-- [What is Funtional Programming :question:](##What-is-Funtional-Programming)
+- [What is Funtional Programming :question:](#What-is-Funtional-Programming)
     - [Immutable Data](###Immutable-Data)
     - [First-class Function](###First-Class-Function)
 - [Why we use it again :question:]()
