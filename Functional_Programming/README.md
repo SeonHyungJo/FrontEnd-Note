@@ -1,6 +1,6 @@
 <div align=center>
 
-![Main_pic](../assets/image/Functional_Programming_Main)
+![Main_pic](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/functional/assets/image/Functional_Programming_Main.png?raw=true)
 
 </div>
 
