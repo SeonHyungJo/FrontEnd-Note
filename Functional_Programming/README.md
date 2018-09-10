@@ -1,6 +1,6 @@
 <div align=center>
 
-![Main_pic](/assets/image/Functional_Programming_Main)
+![Main_pic](../assets/image/Functional_Programming_Main)
 
 </div>
 
