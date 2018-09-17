@@ -2,7 +2,7 @@
 
 <div align=center>
 
-![Main_pic](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/functional/assets/image/Functional_Programming_Main.png?raw=true)
+![Main_pic](/asset/image/Functional_Programming_Main.png)
 
 </div>
 
