@@ -2,7 +2,7 @@
 
 <div align=center>
 
-![Main_pic](/asset/image/Functional_Programming_Main.png)
+![Main_pic](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/assets/image/Functional_Programming_Main.png?raw=true)
 
 </div>
 
@@ -48,7 +48,7 @@
 
 1. 순수 함수는 같은 입력 값을 넣었을 때 항상 같은 출력 값을 반환한다.
 
-```
+```javascript
 
     function add(x){
         return 10 + x;
@@ -58,7 +58,7 @@
 
 2. 유용한 순수 함수는 최소 한 개의 매개변수를 가진다.
 
-```
+```javascript
 
     function(func){
         func();
@@ -68,7 +68,7 @@
 
 3. 유용한 순수 함수는 반드시 무엇인가를 반환한다.
 
-```
+```javascript
 
     return func(){};
 
@@ -87,7 +87,9 @@
 
 함수형 프로그래밍을 특징 중 하나는 바로 immutable data(불변의 데이터)
 
-> 예를 들어 List를 만든다고하자, 그렇다면 우리는 당연히 List에 추가 / 삭제가 일어나게 되면 기존의 List에 추가를 하려고 한다. <br> 그러나 이것은 기존의 List는 그대로 유지를 하되, 추가 또는 삭제가 일어나면 새로운 List를 만들어 return 한다. (이러한 자료구조를 Persistent Data Structure라고 한다.) 성능상에 문제가 있을 거라고 생각을 한다. 그러나 그렇지 않다??
+> 예를 들어 List를 만든다고하자, 그렇다면 우리는 당연히 List에 추가 / 삭제가 일어나게 되면 기존의 List에 추가를 하려고 한다. 
+</br>
+그러나 이것은 기존의 List는 그대로 유지를 하되, 추가 또는 삭제가 일어나면 새로운 List를 만들어 return 한다. (이러한 자료구조를 Persistent Data Structure라고 한다.) 성능상에 문제가 있을 거라고 생각을 한다. 그러나 그렇지 않다??
 
 :fire: 프로그래머가 바꾸고자하는 변수 외에는 바뀌어서는 안된다는 뜻으로 **즉 원본 데이터는 불변해야한다.** :fire:
 
@@ -133,7 +135,7 @@
 
 :point_right: **Closure Example**
 
-```
+```javascript
 
 function grandParent(g1, g2) {
     var g3 = 3;
@@ -161,7 +163,7 @@ function grandParent(g1, g2) {
 개발자라면 누구나 한 번짜놓은 코드가 있다면 다시 만들기 귀찮아한다. 이에 2개이상의 함수를 합성?을 하여 사용하면 정말 편하다고 생각할 것이다.
 </br>
 
-```
+```javascript
 
 function add(x, y){
     return x + y;
@@ -182,7 +184,7 @@ var mult5AfterAdd10 = value => mult5(add(10));
 
 그런데 커링함수라 함은 1개의 매개변수만 받는 함수이다. 그렇다면 먼저 첫번째 매개변수를 받고, 나중에 나머지 한개를 받도록 하면되지 않을까?
 
-```
+```javascript
 
 function add(x){
     return function(y){
@@ -227,7 +229,6 @@ add(10)(5)
 
 </br>
 </br>
-
 
 ---
 ---
