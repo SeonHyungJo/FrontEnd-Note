@@ -1,6 +1,10 @@
 # Prototype
 
+<div align=center>
+
 ![Main](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/assets/image/prototypeLogo.png?raw=true)
+
+</div>
 
 Javascript는 Proptotype기반의 언어라고 한다.
 </br>
