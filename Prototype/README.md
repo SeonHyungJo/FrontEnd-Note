@@ -1,6 +1,6 @@
 # Prototype
 
-> 메인 이미지 넣기
+![Main](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/assets/image/prototypeLogo.png?raw=true)
 
 Javascript는 Proptotype기반의 언어라고 한다.
 </br>
@@ -16,6 +16,8 @@ Javascript의 기본을 익힐때 Object, Function 이렇게 2가지를 먼저 �
 
 먼저 새로운 function을 생성한다고 가정하자.
 </br>
+
+![prototype](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/assets/image/prototype_1.png?raw=true)
 
 ```javascript
 
@@ -43,6 +45,8 @@ function의 prototype은 prototype object를 가르키고 있다.
 
 위에서 생성된 function은 생성자의 역할을 한다. 우리가 만약
 </br>
+
+![prototype](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/assets/image/prototype_2.png?raw=true)
 
 ```javascript
 
@@ -80,6 +84,8 @@ Animal.prototype.constuctor / Animal(){this.name = "동물";}
 그렇다면 위의 2개는 무엇일까:question:
 </br>
 먼저 위에서 생성한 `cat`을 살펴보면
+
+![prototype](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/assets/image/prototype_3.png?raw=true)
 
 ```javascript
 
@@ -119,6 +125,9 @@ cat.hasOwnProperty("name") //true
 
 `__proto__`안을 보게 되면 `constructor : Animal()`이 있는 것을 볼 수 있다. 즉, `cat`을 생성한 `function`의 `prototype`이 `__proto__`에 연결이 되어 있다는 것을 알게 되는 것이다.
 </br>
+
+![prototype](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/assets/image/prototype_4.png?raw=true)
+
 또한 Animal.prototype.__proto__에는 Object.prototype에 연결이 되어있다. 그리고 그 안에는 우리가 사용한 `hasOwnPropert`이 있어서 사용을 하는 것이다.
 </br>
 </br>
@@ -146,6 +155,8 @@ Object.prototype.__proto__ // null
 
 심화적으로 최종적으로 Object로 모든것이 연결이 되는 것도 있지만 Object function.__proto__가  f(){}에 연결이 되어있다. f(){}의 constructor는 Function function이다.
 </br>
+
+![prototype](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/assets/image/prototype_5.png?raw=true)
 
 또한
 </br>
