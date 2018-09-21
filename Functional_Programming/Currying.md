@@ -4,6 +4,10 @@
 
 </br>
 
+> [함수형 프로그래밍이란?](https://github.com/SeonHyungJo/FrontEnd-Dev/tree/master/Functional_Programming)
+
+</br>
+
 이번에는 커링을 만드는 방법이라는 블로그가 있어서 읽어보면서 간단하게 정리를 하였다.
 
 </br>
