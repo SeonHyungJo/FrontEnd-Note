@@ -36,9 +36,14 @@
 ### 함수형 프로그래밍(Functional Programming)
 
 - 먼저, 모든 것은 ***객체*** 이다.
-- 2가지 큰 특징
+- 4가지 특징
     - :star: 순수함수
     - :star::star: Immutable Data(불변하는 데이터)
+    - :star::star::star:공유상태 부작용피하기
+    - :star::star::star::star:명령형이 아닌 선언적
+
+> 함수형에서의 side-effect가 없다하는 것은?<br>
+> 콜백이나 옵저버 패턴이 스레드에 안전하지 않은 이유는 같은 자원에 여러 스레드가 Race condition(경쟁조건??)에 빠지게 되었을 때 알 수 없는 결과가 나오기 때문이다
 
 </br>
 
