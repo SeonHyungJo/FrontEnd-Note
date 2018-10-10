@@ -27,7 +27,8 @@
 </br>
 
 ![DOM 계층](https://web.stanford.edu/class/cs98si/img/dom_types.png)
-츨처: [http://www.stanford.edu/class/cs98si/slides/the-document-object-model.html](http://www.stanford.edu/class/cs98si/slides/the-document-object-model.html)
+
+처: [http://www.stanford.edu/class/cs98si/slides/the-document-object-model.html](http://www.stanford.edu/class/cs98si/slides/the-document-object-model.html)
 
 </br>
 
