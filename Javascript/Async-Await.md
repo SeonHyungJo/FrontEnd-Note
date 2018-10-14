@@ -1,11 +1,11 @@
-# Aync-Await
+# Async-Await
 
-## Aync-Await에 도달하기 위해서
+## Async-Await에 도달하기 위해서
 
 1. Iterator
 2. Generator
 3. Promise
-4. Aync-Await
+4. Async-Await
 
 </br>
 
