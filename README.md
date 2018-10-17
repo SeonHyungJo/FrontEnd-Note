@@ -39,7 +39,7 @@
 
 ### Language
 
-- [Script Language](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Language/Script-Language.md)
+- [Script Language] (https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Language/Script-Language.md)
 
 </br>
 
