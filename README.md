@@ -34,7 +34,8 @@
 - [Call By Reference](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/CallByReference.md)
 - [Event Delegation](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Event%20Delegation.md)
 - [Javascript BuildTool](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Javascript_BuildTool.md)
-- - :new: [Async-Await](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Async-Await.md)
+- :new: [Async-Await](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Async-Await.md)
+- :new: [Arrow Function](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Arrow-Function.md)
 
 </br>
 </br>
