@@ -18,7 +18,6 @@
 - [하드웨어 가속화](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4_%EA%B0%80%EC%86%8D%ED%99%94.md)
 
 </br>
-</br>
 
 ### Functional Programming
 
@@ -26,7 +25,6 @@
 - [Currying](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Functional_Programming/Currying.md)
 - :new: [Functional setState](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Functional_Programming/setState.md)
 
-</br>
 </br>
 
 ### JavaScript
@@ -38,13 +36,11 @@
 - :new: [Arrow Function](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Arrow-Function.md)
 
 </br>
-</br>
 
 ### Language
 
 - [Script Language](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Language/Script-Language.md)
 
-</br>
 </br>
 
 ### Module
@@ -53,20 +49,17 @@
 - [Module](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Module/Module.md)
 
 </br>
-</br>
 
 ### Performance
 
 - [performance](https://github.com/SeonHyungJo/FrontEnd-Dev/tree/master/Performance)
 
 </br>
-</br>
 
 ### Prototype
 
 - [Prototype](https://github.com/SeonHyungJo/FrontEnd-Dev/tree/master/Prototype)
 
-</br>
 </br>
 
 ### Reactive
