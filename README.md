@@ -19,11 +19,17 @@
 
 </br>
 
+### Design_Pattern
+
+- :new: [MVC MVP MVVM](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Design_Pattern/MVC_MVP_MVVM.md)
+
+</br>
+
 ### Functional Programming
 
 - [Functinonal Programming](https://github.com/SeonHyungJo/FrontEnd-Dev/tree/master/Functional_Programming)
 - [Currying](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Functional_Programming/Currying.md)
-- :new: [Functional setState](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Functional_Programming/setState.md)
+- [Functional setState](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Functional_Programming/setState.md)
 
 </br>
 
@@ -32,14 +38,14 @@
 - [Call By Reference](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/CallByReference.md)
 - [Event Delegation](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Event%20Delegation.md)
 - [Javascript BuildTool](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Javascript_BuildTool.md)
-- :new: [Async-Await](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Async-Await.md)
+- [Async-Await](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Async-Await.md)
 - :new: [Arrow Function](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Arrow-Function.md)
 
 </br>
 
 ### Language
 
-- [Script Language] (https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Language/Script-Language.md)
+- [Script Language](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Language/Script-Language.md)
 
 </br>
 
