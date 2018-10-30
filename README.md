@@ -3,7 +3,6 @@
 :musical_note: Space for  making up Frond-End knowledge :musical_note:
 
 **Chapter1 I'm beginner**
-
 </br>
 </br>
 
@@ -16,6 +15,7 @@
 - [Reflow & Repaint](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/Reflow%26Repaint.md)
 - [웹 브라우저 작동 원리](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/%EC%9B%B9_%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80_%EC%9E%91%EB%8F%99_%EC%9B%90%EB%A6%AC.md)
 - [하드웨어 가속화](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4_%EA%B0%80%EC%86%8D%ED%99%94.md)
+- :new: [표준모드 vs 쿽스모드](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/Standard%26QuirksMode.md)
 
 </br>
 
@@ -39,7 +39,7 @@
 - [Event Delegation](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Event%20Delegation.md)
 - [Javascript BuildTool](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Javascript_BuildTool.md)
 - [Async-Await](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Async-Await.md)
-- :new: [Arrow Function](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Arrow-Function.md)
+- [Arrow Function](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Arrow-Function.md)
 
 </br>
 
