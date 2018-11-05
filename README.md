@@ -21,7 +21,8 @@
 
 ### Design_Pattern
 
-- :new: [MVC MVP MVVM](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Design_Pattern/MVC_MVP_MVVM.md)
+- [MVC MVP MVVM](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Design_Pattern/MVC_MVP_MVVM.md)
+- :new: [Singleton](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Design_Pattern/Singleton.md)
 
 </br>
 
@@ -59,7 +60,7 @@
 ### Performance
 
 - [performance](https://github.com/SeonHyungJo/FrontEnd-Dev/tree/master/Performance)
-- :new: [점진적향상 우아한하향](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Performance/%EC%A0%90%EC%A7%84%EC%A0%81%ED%96%A5%EC%83%81_%EC%9A%B0%EC%95%84%ED%95%9C%ED%95%98%ED%96%A5.md)
+- [점진적향상 우아한하향](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Performance/%EC%A0%90%EC%A7%84%EC%A0%81%ED%96%A5%EC%83%81_%EC%9A%B0%EC%95%84%ED%95%9C%ED%95%98%ED%96%A5.md)
 - :new: [Memoization](https://github.com/SeonHyungJo/FrontEnd-Dev/tree/master/Performance/Memoization.md)
 
 </br>
@@ -73,3 +74,10 @@
 ### Reactive
 
 - [Reactive](https://github.com/SeonHyungJo/FrontEnd-Dev/tree/master/Reactive)
+
+### Security
+
+- :new: [CORS(Cross-Origin Resource Sharing)](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Security/CORS(Cross-Origin%20Resource%20Sharing).md)
+- :new: [XSS와 CSRF](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Security/XSS%EC%99%80%20CSRF.md)
+
+## FEConf 2018(contunue...)
