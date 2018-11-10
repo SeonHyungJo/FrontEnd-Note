@@ -3,19 +3,18 @@
 ## 들어가기에 앞서...
 
 1. **DTD(Document Type Definition)**
-2. **Doctype**이란 무엇인가 :question:
-3. 표준모드와 쿽스모드의 차이점은 :question:
+2. 표준모드와 쿽스모드의 차이점은 :question:
 
 </br>
 
 ```html
-<!DOCTYPE ... > //예시 방향
+<!DOCTYPE ... > //예시
 ```
 
 </br>
 </br>
 
-## DTD란:question:
+## DTD란 :question:
 
 > 문서 형식 정의(DTD:Document Type Definition)는 마크업 문서의 요소와 속성등을 해석하는 기준을 명시하는 것입니다.
 </br>
@@ -26,7 +25,7 @@
 문서 형식에는 크게 **HTML5, XHTML, HTML** 의 3가지가 존재합니다.
 </br>
 
-이전 버전의 **HTML(HTML2 ~ HTML4)** 은 [SGML](https://ko.wikipedia.org/wiki/SGML)에 기반을 두어 만들어졌기 때문에 상세한 `DTD` 참조가 필요하며, 이 때문에 `DOCTYPE` 선언을 하려면 공개 식별자와 시스템 식별자가 포함된 긴 문자열을 작성해야 합니다.
+이전 버전의 **HTML(HTML2 ~ HTML4)** 은 [SGML](https://ko.wikipedia.org/wiki/SGML)에 기반을 두어 만들어졌기 때문에 상세한 `DTD` 참조가 필요하며, 이 때문에 `DOCTYPE` 선언을 하려면 **공개 식별자**와 **시스템 식별자**가 포함된 긴 문자열을 작성해야 합니다.
 
 :point_right: `HTML 4.01 Strict` 모드로 문서 형식을 정의할 경우의 예
 
@@ -41,22 +40,6 @@ PUBLIC "-//W3C//DTD HTML 4.01//EN" //공개 식별자
 </br>
 
 ## **XHTML :vs: HTML5**
-
-### **XHTML**
-
-`XHTML(Extensible Hypertext Markup Language)`은 `HTML`과 동등한 표현 능력을 지닌 마크업 언어로, **`HTML`보다 엄격한 문법을 가집니다.**
-</br>
-
-`HTML`이 `SGML`의 응용인 데 반해, 매우 유연한 마크업 언어인 `XHTML`은 `SGML`의 제한된 부분집합인 **`XML`의 응용입니다.**
-</br>
-
-`XHTML` 문서는 하나의 `XML` 문서로서 문법적으로 정확해야 하기 때문에, `HTML`과 달리 **표준 `XML` 라이브러리를 이용한 자동화된 처리가 가능합니다.**
-</br>
-
-`XHTML 1.0`은 2000년 1월 26일, `W3C(World Wide Web Consortium: 월드 와이드 웹 콘서시엄)`의 권고안이 되었습니다.
-
-</br>
-</br>
 
 ### **SGML과 XML**
 
@@ -74,9 +57,25 @@ PUBLIC "-//W3C//DTD HTML 4.01//EN" //공개 식별자
 </br>
 </br>
 
+### **XHTML**
+
+`XHTML(Extensible Hypertext Markup Language)`은 `HTML`과 동등한 표현 능력을 지닌 마크업 언어로, **`HTML`보다 엄격한 문법을 가집니다.**
+</br>
+
+`HTML`이 `SGML`의 응용인 데 반해,  `XHTML`은 `SGML`의 제한된 부분집합인 **`XML`의 응용입니다.**
+</br>
+
+`XHTML` 문서는 하나의 `XML` 문서로서 문법적으로 정확해야 하기 때문에, `HTML`과 달리 **표준 `XML` 라이브러리를 이용한 자동화된 처리가 가능합니다.**
+</br>
+
+`XHTML 1.0`은 2000년 1월 26일, `W3C(World Wide Web Consortium: 월드 와이드 웹 콘서시엄)`의 권고안이 되었습니다.
+
+</br>
+</br>
+
 ### **XHTML vs HTML 5**
 
-2004년 W3C 회의에서 모질라 재단과 오페라 소프트웨어가 새로운 HTML 표준을 제안했지만, W3C에 의해 "웹의 혁명을 위한 기존의 지향점에 위배된다"고 거절당했습니다.
+2004년 W3C 회의에서 모질라 재단과 오페라 소프트웨어가 새로운 **HTML 표준**을 제안했지만, W3C에 의해 "웹의 혁명을 위한 기존의 지향점에 위배된다"고 거절당했습니다.
 </br>
 
 이에 인터넷 익스플로러를 제외한 애플, 모질라, 오페라가 `WHATWG`라는 새로운 웹 표준 기관을 설립하고 `HTML5` 표준을 제정했습니다.  
@@ -206,7 +205,7 @@ table 안의 font size 상속
 
 ### XHTML 1.0 Transitional
 
-1. HTML모든 요소와 속성을 포함. 
+1. HTML모든 요소와 속성을 포함.
 2. 표현적인 것과 퇴화 요소는 포함( font 태그 지원)
 3. Frameset 지원 안 함.
 4. **Markup은 잘 조직된 XML로 쓰여져야 함.**
