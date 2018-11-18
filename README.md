@@ -35,6 +35,10 @@
 
 </br>
 
+### HTML
+
+- :new: [Head Meta](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/HTML/Head_Meta.md)
+
 ### JavaScript
 
 - [Call By Reference](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/CallByReference.md)
