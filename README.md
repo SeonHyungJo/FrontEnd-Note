@@ -1,10 +1,11 @@
 # FrontEnd-Dev😎
 
-:musical_note: Space for  making up Frond-End knowledge :musical_note:
+Space for  making up Frond-End knowledge
 
 **Chapter1 I'm beginner**
-</br>
-</br>
+
+<br/>
+<br/>
 
 ## Contents
 
@@ -18,22 +19,22 @@
 - [표준모드 vs 쿽스모드](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/Standard%26QuirksMode.md)
 - [Cookie Session Local](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/Cookie%26Storage.md)
 
-</br>
+<br/>
 
 ### Design_Pattern
 
 - [MVC MVP MVVM](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Design_Pattern/MVC_MVP_MVVM.md)
 - [Singleton](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Design_Pattern/Singleton.md)
 
-</br>
+<br/>
 
 ### Functional Programming
 
-- :new: Version2 [Functinonal Programming](https://github.com/SeonHyungJo/FrontEnd-Dev/tree/master/Functional_Programming)
+- Version2 [Functinonal Programming](https://github.com/SeonHyungJo/FrontEnd-Dev/tree/master/Functional_Programming)
 - [Currying](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Functional_Programming/Currying.md)
 - [Functional setState](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Functional_Programming/setState.md)
 
-</br>
+<br/>
 
 ### HTML
 
@@ -48,22 +49,25 @@
 - [Arrow Function](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Arrow-Function.md)
 - [Object 생성자는 사용하지 말자](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Problem_of_new_Object.md)
 - :new: [Throttle and Debounce](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Throttle_and_Debounce.md)
+- :new: [Promise 1](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Promise_1.md)
+- :new: [Promise 2](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Promise_2.md)
 
-</br>
+<br/>
 
 ### Language
 
 - [Script Language](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Language/Script-Language.md)
+- :new: [OOP](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Language/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D(OOP).md)
 
-</br>
+<br/>
 
 ### Module
 
 - [Lexical deceit](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Module/Lexical_deceit.md)
 - [Module](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Module/Module.md)
-- :new: [Bundler History](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Module/Bundler_History.md)
+- [Bundler History](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Module/Bundler_History.md)
 
-</br>
+<br/>
 
 ### Performance
 
@@ -73,13 +77,13 @@
 - [CSS 애니메이션 vs JS 애니메이션](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Performance/CSS%20%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98%20vs%20JS%20%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98.md)
 - [기본적인 렌더링 최적화 방법](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Performance/%EA%B8%B0%EB%B3%B8%EC%A0%81%EC%9D%B8%20%EB%A0%8C%EB%8D%94%EB%A7%81%20%EC%B5%9C%EC%A0%81%ED%99%94%20%EB%B0%A9%EB%B2%95.md)
 
-</br>
+<br/>
 
 ### Prototype
 
 - [Prototype](https://github.com/SeonHyungJo/FrontEnd-Dev/tree/master/Prototype)
 
-</br>
+<br/>
 
 ### Reactive
 
