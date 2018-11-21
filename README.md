@@ -51,7 +51,8 @@ Space for  making up Frond-End knowledge
 - :new: [Throttle and Debounce](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Throttle_and_Debounce.md)
 - :new: [Promise 1](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Promise_1.md)
 - :new: [Promise 2](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Promise_2.md)
-- - :new: [CallBack_Hell](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/CallBack_Hell.md)
+- :new: [CallBack_Hell](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/CallBack_Hell.md)
+- :new: [Spread_Operator](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Spread_Operator.md)
 
 <br/>
 
