@@ -60,7 +60,9 @@ Space for  making up Frond-End knowledge
 
 <br/>
 
-### ECMA2015(ES6)_예정
+### ECMA2015(ES6)_임시
+
+- :new: [Block Scope : let, const](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/es6/ES6/Block_Scope(Let%2C%20Const).md)
 
 <br/>
 
