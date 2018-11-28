@@ -63,6 +63,8 @@ Space for  making up Frond-End knowledge
 ### ECMA2015(ES6)_임시
 
 - :new: [Block Scope : let, const](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/es6/ES6/Block_Scope(Let%2C%20Const).md)
+- - :new: [Template String ``](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/es6/ES6/Template_String(BackTick).md)
+- - :new: [Binary & Octal Literals](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/es6/ES6/Binary&Octal_Literals.md)
 
 <br/>
 
