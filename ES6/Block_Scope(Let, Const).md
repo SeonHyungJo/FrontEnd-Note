@@ -1,4 +1,4 @@
-# Block_Scope(Let, Const)
+# [ES6] Block_Scope(Let, Const)
 
 자바스크립트는 기본적으로 함수기반 스코프를 가진다. 그러나 ES6에 들어가면서 새로운 스코프가 더 생기게 된다. 바로, `Block scoping`
 <br/>
