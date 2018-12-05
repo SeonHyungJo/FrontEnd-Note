@@ -1,4 +1,4 @@
-# Binary & Octal Literals
+# [ES6] Binary & Octal Literals
 
 기존의 자바스크립트는
 

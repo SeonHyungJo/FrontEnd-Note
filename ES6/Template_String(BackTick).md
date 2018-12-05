@@ -1,4 +1,4 @@
-# Template String(Back Tick)
+# [ES6] Template String(Back Tick)
 
 **Babel7**에 나와있는 설명을 간단히 보자면
 <br/>
