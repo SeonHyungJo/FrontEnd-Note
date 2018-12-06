@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Script-based animation using requestAnimationFrame</title>
+    <style type="text/css">
+        div {
+            position: absolute;
+            left: 10px;
+            top: 100px;
+            padding: 50px;
+            background: crimson;
+            color: white;
+        }
+    </style>
+    <script type="text/javascript">
+        var requestId = 0;
+        var lpos = 0;
+        var elm;
+
+        function init() {
+            elm = document.getElementById("animated");
+        }
+        
+        function render() {
+            elm.style.left = ((lpos += 3) % 600) + "px";
+            requestId = window.requestAFrame(render);
+        }
+
+        function start() {
+            requestId = window.requestAFrame(render);
+        }
+
+        function stop() {
+            if (requestId) window.cancelAFrame(requestId);
+        }
+
+        window.requestAFrame = (function () {
+            return window.requestAnimationFrame
+                || window.webkitRequestAnimationFrame
+                || window.mozRequestAnimationFrame
+                || window.oRequestAnimationFrame
+                || function (callback) {
+                    return window.setTimeout(callback, 1000 / 60);
+                };
+        })();
+
+        window.cancelAFrame = (function () {
+            return window.cancelAnimationFrame
+                || window.webkitCancelAnimationFrame
+                || window.mozCancelAnimationFrame
+                || window.oCancelAnimationFrame
+                || function (id) { window.clearTimeout(id); };
+        })();
+    </script>
+</head>
+
+<body onload="init();">
+    <div id="animated">Hello there.</div>
+    <button onclick="start()">Start</button>
+    <button onclick="stop()">Stop</button>
+</body>
+
+</html>
