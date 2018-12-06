@@ -30,6 +30,12 @@ Delete is the only true way to remove object’s properties without any leftover
 <br/>
 <br/>
 
+## 성능측정(어느 착한분이 해놓으심)
+
+http://jindo.dev.naver.com/jsMatch/index.html?d=192&openResult=1
+<br/>
+<br/>
+
 ## 참고
 
 - https://medium.com/@laziel/javascript-%EA%B0%9D%EC%B2%B4%EC%9D%98-%EC%86%8D%EC%84%B1%EC%9D%84-%EC%A0%9C%EA%B1%B0%ED%95%A0-%EB%95%8C-delete-%EC%97%B0%EC%82%B0%EC%9E%90%EB%B3%B4%EB%8B%A4-undefined-%EB%82%98-null-%EA%B0%92%EC%9C%BC%EB%A1%9C-%EB%A7%8C%EB%93%9C%EB%8A%94-%EA%B2%83%EC%9D%B4-%EB%82%AB%EB%8B%A4-2db597f64514
