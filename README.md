@@ -49,23 +49,24 @@ Space for  making up Frond-End knowledge
 
 - [Arrow Function](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Arrow-Function.md)
 - [Async-Await](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Async-Await.md)
-- :new: [CallBack_Hell](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/CallBack_Hell.md)
+- [CallBack_Hell](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/CallBack_Hell.md)
 - [Call By Reference](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/CallByReference.md)
+- :new: [Dont use delete](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Dont_use_delete.md)
 - [Event Delegation](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Event%20Delegation.md)
 - [Javascript BuildTool](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Javascript_BuildTool.md)
 - [Object 생성자는 사용하지 말자](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Problem_of_new_Object.md)
-- :new: [Promise 1](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Promise_1.md)
-- :new: [Promise 2](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Promise_2.md)
-- :new: [Spread_Operator](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Spread_Operator.md)
-- :new: [Throttle and Debounce](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Throttle_and_Debounce.md)
+- [Throttle and Debounce](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Throttle_and_Debounce.md)
 
 <br/>
 
 ### ECMA2015(ES6)_임시
 
-- :new: [Block Scope : let, const](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/es6/ES6/Block_Scope(Let%2C%20Const).md)
-- :new: [Template String ``](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/es6/ES6/Template_String(BackTick).md)
-- :new: [Binary & Octal Literals](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/es6/ES6/Binary&Octal_Literals.md)
+- :new: [Block Scope : let, const](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Block_Scope(Let%2C%20Const).md)
+- :new: [Template String ``](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Template_String(BackTick).md)
+- :new: [Binary & Octal Literals](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Binary&Octal_Literals.md)
+- :new: [Promise 1](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Promise_1.md)
+- :new: [Promise 2](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Promise_2.md)
+- :new: [Spread_Operator](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Spread_Operator.md)
 
 <br/>
 
