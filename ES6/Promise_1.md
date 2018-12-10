@@ -1,4 +1,4 @@
-# Promise 1
+# [ES6] Promise 1
 
 ## 콜백을 구하라
 

@@ -49,23 +49,24 @@ Space for  making up Frond-End knowledge
 
 - [Arrow Function](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Arrow-Function.md)
 - [Async-Await](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Async-Await.md)
-- :new: [CallBack_Hell](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/CallBack_Hell.md)
+- [CallBack_Hell](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/CallBack_Hell.md)
 - [Call By Reference](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/CallByReference.md)
+- :new: [Dont use delete](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Dont_use_delete.md)
 - [Event Delegation](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Event%20Delegation.md)
 - [Javascript BuildTool](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Javascript_BuildTool.md)
 - [Object 생성자는 사용하지 말자](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Problem_of_new_Object.md)
-- :new: [Promise 1](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Promise_1.md)
-- :new: [Promise 2](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Promise_2.md)
-- :new: [Spread_Operator](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Spread_Operator.md)
-- :new: [Throttle and Debounce](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Throttle_and_Debounce.md)
+- [Throttle and Debounce](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Throttle_and_Debounce.md)
 
 <br/>
 
 ### ECMA2015(ES6)_임시
 
-- :new: [Block Scope : let, const](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/es6/ES6/Block_Scope(Let%2C%20Const).md)
-- - :new: [Template String ``](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/es6/ES6/Template_String(BackTick).md)
-- - :new: [Binary & Octal Literals](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/es6/ES6/Binary&Octal_Literals.md)
+- :new: [Block Scope : let, const](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Block_Scope(Let%2C%20Const).md)
+- :new: [Template String ``](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Template_String(BackTick).md)
+- :new: [Binary & Octal Literals](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Binary&Octal_Literals.md)
+- :new: [Promise 1](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Promise_1.md)
+- :new: [Promise 2](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Promise_2.md)
+- :new: [Spread_Operator](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Spread_Operator.md)
 
 <br/>
 
@@ -115,16 +116,16 @@ Space for  making up Frond-End knowledge
 
 1. 미국 개발자, 그리고 한국 개발자
 2. Reduc-saga - 제너레이터, 사이드 이펙트, 채널
-3. webGL
-4. 웹폰트의 사용과 최적화
-5. 개발자를 위한 UX programming
-6. Front-end 프로젝트의 Test code 경험기
+3. **webGL**
+4. **웹폰트의 사용과 최적화**
+5. **개발자를 위한 UX programming**
+6. **Front-end 프로젝트의 Test code 경험기**
 
 ### Secion2 
 
-1. TC 39 스펙에 대한 주관적 참견 시점
+1. **TC 39 스펙에 대한 주관적 참견 시점**
 2. 복붙없이 우리팀에 딱 맞는 엥귤러 프로젝트 만들기
 3. React Component와 D3 Object를 유기적으로 연결하는 전략
-4. 한편의 애니메이션 같은 CSS
-5. 자체 polyfill.io서버 구축하여 프론트엔드 최적화 하기
+4. **한편의 애니메이션 같은 CSS**
+5. **자체 polyfill.io서버 구축하여 프론트엔드 최적화 하기**
 6. 은밀하게 신속하게 React 포팅 성공기

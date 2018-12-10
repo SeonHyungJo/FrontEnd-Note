@@ -1,4 +1,4 @@
-# Spread Operator
+# [ES6] Spread Operator
 
 ## 전개 연산자
 

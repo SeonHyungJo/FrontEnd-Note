@@ -1,4 +1,4 @@
-# Promise 2
+# [ES6] Promise 2
 
 ## 믿음성
 
