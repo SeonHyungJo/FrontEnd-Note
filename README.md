@@ -116,16 +116,16 @@ Space for  making up Frond-End knowledge
 
 1. 미국 개발자, 그리고 한국 개발자
 2. Reduc-saga - 제너레이터, 사이드 이펙트, 채널
-3. webGL
-4. 웹폰트의 사용과 최적화
-5. 개발자를 위한 UX programming
-6. Front-end 프로젝트의 Test code 경험기
+3. **webGL**
+4. **웹폰트의 사용과 최적화**
+5. **개발자를 위한 UX programming**
+6. **Front-end 프로젝트의 Test code 경험기**
 
 ### Secion2 
 
-1. TC 39 스펙에 대한 주관적 참견 시점
+1. **TC 39 스펙에 대한 주관적 참견 시점**
 2. 복붙없이 우리팀에 딱 맞는 엥귤러 프로젝트 만들기
 3. React Component와 D3 Object를 유기적으로 연결하는 전략
-4. 한편의 애니메이션 같은 CSS
-5. 자체 polyfill.io서버 구축하여 프론트엔드 최적화 하기
+4. **한편의 애니메이션 같은 CSS**
+5. **자체 polyfill.io서버 구축하여 프론트엔드 최적화 하기**
 6. 은밀하게 신속하게 React 포팅 성공기
