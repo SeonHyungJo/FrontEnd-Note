@@ -25,8 +25,8 @@ Space for  making up Frond-End knowledge
 
 ### Design_Pattern
 
-- :new: [Adapter_pattern](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Design_Pattern/Adapter.md)
-- :new: [Factory_pattern](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Design_Pattern/Factory.md)
+- [Adapter_pattern](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Design_Pattern/Adapter.md)
+- [Factory_pattern](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Design_Pattern/Factory.md)
 - [MVC MVP MVVM](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Design_Pattern/MVC_MVP_MVVM.md)
 - [Promise_pattern](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Design_Pattern/Promise_pattern.md)
 - [Singleton_pattern](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Design_Pattern/Singleton.md)
@@ -44,29 +44,36 @@ Space for  making up Frond-End knowledge
 ### HTML
 
 - [Head Meta](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/HTML/Head_Meta.md)
+- :new:[HTTPS](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/HTML/HTTPS.md)
 
 ### JavaScript
 
 - [Arrow Function](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Arrow-Function.md)
-- [Async-Await](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Async-Await.md)
-- [CallBack_Hell](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/CallBack_Hell.md)
+- [Async Await](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Async-Await.md)
+- [CallBack Hell](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/CallBack_Hell.md)
 - [Call By Reference](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/CallByReference.md)
 - :new: [Dont use delete](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Dont_use_delete.md)
 - [Event Delegation](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Event%20Delegation.md)
 - [Javascript BuildTool](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Javascript_BuildTool.md)
 - [Object 생성자는 사용하지 말자](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Problem_of_new_Object.md)
+- :new:[Mouse Event](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Mouse_Event.md)
+- :new:[Reduce](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Reduce.md)
 - [Throttle and Debounce](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Throttle_and_Debounce.md)
+- :new:[WebWorker(간단하게 예제)](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/WebWorker.md)
 
 <br/>
 
 ### ECMA2015(ES6)_임시
 
 - :new: [Block Scope : let, const](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Block_Scope(Let%2C%20Const).md)
-- :new: [Template String ``](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Template_String(BackTick).md)
 - :new: [Binary & Octal Literals](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Binary&Octal_Literals.md)
+- :new: [Destructuring](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Destructuring.md)
 - :new: [Promise 1](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Promise_1.md)
 - :new: [Promise 2](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Promise_2.md)
 - :new: [Spread_Operator](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Spread_Operator.md)
+- :new: [Template String ``](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Spread.md)
+- :new: [Template String ``](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Template_String(BackTick).md)
+
 
 <br/>
 

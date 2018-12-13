@@ -44,6 +44,38 @@ Scroll의 경우 미세하게 움직는 것조차 여러번의 이벤트가 발�
 </br>
 
 따라서 **1 초 미만으로 쓰로틀링을 하여 같은 동작의 여러번 호출을 1 번으로 제어하는 것이 좋겠다.**
+
+```js
+debounce = function(func, wait, immediate) {
+    var timeout, result;
+
+    var later = function(context, args) {
+      timeout = null;
+      if (args) result = func.apply(context, args);
+    };
+
+    var debounced = restArguments(function(args) {
+      if (timeout) clearTimeout(timeout);
+      if (immediate) {
+        var callNow = !timeout;
+        timeout = setTimeout(later, wait);
+        if (callNow) result = func.apply(this, args);
+      } else {
+        timeout = _.delay(later, wait, this, args);
+      }
+
+      return result;
+    });
+
+    debounced.cancel = function() {
+      clearTimeout(timeout);
+      timeout = null;
+    };
+
+    return debounced;
+};
+```
+
 </br>
 </br>
 
@@ -69,6 +101,50 @@ Scroll의 경우 미세하게 움직는 것조차 여러번의 이벤트가 발�
 </br>
 
 `Throttling` 과 `Debouncing` 은 실제로 개발 시 자주 사용되는 기술입니다. 따라서 좋은 라이브러리가 만들어져 있습니다. [Lodash](https://lodash.com/) 와 [Underscore](https://underscorejs.org/) 입니다.
+
+```js
+throttle = function(func, wait, options) {
+    var timeout, context, args, result;
+    var previous = 0;
+    if (!options) options = {};
+
+    var later = function() {
+      previous = options.leading === false ? 0 : _.now();
+      timeout = null;
+      result = func.apply(context, args);
+      if (!timeout) context = args = null;
+    };
+
+    var throttled = function() {
+      var now = _.now();
+      if (!previous && options.leading === false) previous = now;
+      var remaining = wait - (now - previous);
+      context = this;
+      args = arguments;
+      if (remaining <= 0 || remaining > wait) {
+        if (timeout) {
+          clearTimeout(timeout);
+          timeout = null;
+        }
+        previous = now;
+        result = func.apply(context, args);
+        if (!timeout) context = args = null;
+      } else if (!timeout && options.trailing !== false) {
+        timeout = setTimeout(later, remaining);
+      }
+      return result;
+    };
+
+    throttled.cancel = function() {
+      clearTimeout(timeout);
+      previous = 0;
+      timeout = context = args = null;
+    };
+
+    return throttled;
+};
+```
+
 </br>
 </br>
 
