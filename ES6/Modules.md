@@ -1,5 +1,4 @@
-
-# Modules
+# [ES6] Modules
 
 이제는 `ES6` 에서는 `import export`가 가능해졌다. 
 이것은 정말 간단하면서 파워풀하다.
