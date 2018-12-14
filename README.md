@@ -71,7 +71,7 @@ Space for  making up Frond-End knowledge
 - :new: [Promise 1](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Promise_1.md)
 - :new: [Promise 2](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Promise_2.md)
 - :new: [Spread_Operator](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Spread_Operator.md)
-- :new: [Template String ``](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Spread.md)
+- :new: [Spread](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Spread.md)
 - :new: [Template String ``](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Template_String(BackTick).md)
 
 
