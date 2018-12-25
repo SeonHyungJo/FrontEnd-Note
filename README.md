@@ -58,17 +58,17 @@ Space for  making up Frond-End knowledge
 - [Async Await](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Async-Await.md)
 - [CallBack Hell](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/CallBack_Hell.md)
 - [Call By Reference](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/CallByReference.md)
-- :new: [Dont use delete](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Dont_use_delete.md)
-- :new:[Event Delegation](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Event%20Delegation.md)
+- :new:[Dont use delete](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Dont_use_delete.md)
+- [Event Delegation](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Event%20Delegation.md)
 - :new:[Javascript 메모리관리(가비지 컬렉션)](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Javascript_%EB%A9%94%EB%AA%A8%EB%A6%AC%EA%B4%80%EB%A6%AC.md)
 - [Javascript BuildTool](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Javascript_BuildTool.md)
 - :new:[Javascript Engine](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Javascript_Engine.md)
-- :new:[Mouse Event](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Mouse_Event.md)
+- [Mouse Event](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Mouse_Event.md)
 - [Object 생성자는 사용하지 말자](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Problem_of_new_Object.md)
-- :new:[Reduce](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Reduce.md)
+- [Reduce](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Reduce.md)
 - [StateManagement](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/StateManagement.md)
 - [Throttle and Debounce](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Throttle_and_Debounce.md)
-- :new:[WebWorker(간단하게 예제)](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/WebWorker.md)
+- [WebWorker(간단하게 예제)](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/WebWorker.md)
 
 <br/>
 
