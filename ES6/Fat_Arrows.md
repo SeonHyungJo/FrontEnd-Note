@@ -1,4 +1,4 @@
-# Fat Arrows
+# [ES6] Fat Arrows
 
 ## Arrows and Lexical This
 

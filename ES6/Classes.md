@@ -1,4 +1,4 @@
-# Classes
+# [ES6] Classes
 
 이번에는 간단하게 `ES6` 에 새로 생긴 `Class` 에 대해서 간단하게 알아볼려고 한다.
 <br/>
