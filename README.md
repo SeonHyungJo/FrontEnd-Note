@@ -36,6 +36,7 @@ Space for  making up Frond-End knowledge
 ### ES3
 
 - :new:[[ES3]ECMA-262-3_This](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES3/%5BES3%5DECMA-262-3_This.md)
+- :new:[[ES3]ECMA-262-3_ScopeChain](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES3/%5BES3%5DECMA-262-3_ScopeChain.md)
   
 <br/>
 
@@ -50,23 +51,25 @@ Space for  making up Frond-End knowledge
 ### HTML
 
 - [Head Meta](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/HTML/Head_Meta.md)
-- :new:[HTTPS](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/HTML/HTTPS.md)
+- [HTTPS](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/HTML/HTTPS.md)
 
 ### JavaScript
 
+- [JavaScript](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript)
 - [Arrow Function](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Arrow-Function.md)
 - [Async Await](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Async-Await.md)
 - [CallBack Hell](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/CallBack_Hell.md)
 - [Call By Reference](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/CallByReference.md)
-- :new:[Dont use delete](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Dont_use_delete.md)
+- [Dont use delete](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Dont_use_delete.md)
 - [Event Delegation](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Event%20Delegation.md)
-- :new:[Javascript 메모리관리(가비지 컬렉션)](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Javascript_%EB%A9%94%EB%AA%A8%EB%A6%AC%EA%B4%80%EB%A6%AC.md)
+- [Javascript 메모리관리(가비지 컬렉션)](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Javascript_%EB%A9%94%EB%AA%A8%EB%A6%AC%EA%B4%80%EB%A6%AC.md)
 - [Javascript BuildTool](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Javascript_BuildTool.md)
 - :new:[Javascript Engine](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Javascript_Engine.md)
 - [Mouse Event](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Mouse_Event.md)
 - [Object 생성자는 사용하지 말자](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Problem_of_new_Object.md)
 - [Reduce](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Reduce.md)
 - [StateManagement](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/StateManagement.md)
+- [Strict_Mode](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Strict_Mode.md)
 - [Throttle and Debounce](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Throttle_and_Debounce.md)
 - [WebWorker(간단하게 예제)](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/WebWorker.md)
 
@@ -74,9 +77,13 @@ Space for  making up Frond-End knowledge
 
 ### ECMA2015(ES6)_임시
 
-- :new: [Block Scope : let, const](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Block_Scope(Let%2C%20Const).md)
+- :new: [Arrow-Function](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Arrow-Function.md)
+- :new: [Async-Await](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Async-Await.md)
 - :new: [Binary & Octal Literals](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Binary&Octal_Literals.md)
+- :new: [Block Scope : let, const](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Block_Scope(Let%2C%20Const).md)
+- :new: [Classes](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Classes.md)
 - :new: [Destructuring](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Destructuring.md)
+- :new: [Fat_Arrows](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Fat_Arrows.md)
 - :new: [Modules](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Modules.md)
 - :new: [Promise 1](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Promise_1.md)
 - :new: [Promise 2](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Promise_2.md)
