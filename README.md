@@ -35,6 +35,7 @@ Space for  making up Frond-End knowledge
 
 ### ES3
 
+- :new:[[ES3]ECMA-262-3_Function](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES3/%5BES3%5DECMA-262-3_Function.md)
 - :new:[[ES3]ECMA-262-3_This](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES3/%5BES3%5DECMA-262-3_This.md)
 - :new:[[ES3]ECMA-262-3_ScopeChain](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES3/%5BES3%5DECMA-262-3_ScopeChain.md)
   
