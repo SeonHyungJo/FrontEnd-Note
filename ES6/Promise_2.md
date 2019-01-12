@@ -5,11 +5,11 @@
 ### Promise.resolve()
 
 프로미스는 사실 별게 아니다. 콜백을 넘겨주는 위치를 달리했을 뿐이다. `foo()` 에 콜백을 넘기는 것이 아닌 `foo()` 에서 프로미스를 받은 뒤 **이 프로미스에 콜백을 준 것이다.**
-</br>
+<br/>
 
 프로미스가 나오게 된 가장 중요한 점은 믿음이다.
 근데 중요한 것은 이 받은 프로미스가 진짜 프로미스가 아니라면?단지 `.then()` 을 쓸 수 있는 `object` 라면 어떨까?
-</br>
+<br/>
 
 이것을 흔히 `Thenable` 이라고 한다.
 
@@ -32,13 +32,13 @@ p.then(
 ```
 
 이 경우 `p` 처럼 `then()` 이 있는 `thenable` 은 모두 프로미스처럼 보이게 동작할 수 있다.
-</br>
+<br/>
 
 이 경우 `Promise.resolve()` 로 해결이 가능하다. `Promise.resolve()` 를 거치면 이 값으로 이루어진 프라미스 객체가 반환된다.
-</br>
+<br/>
 
 이게 굉장히 중요하다. 프로미스가 등장한 이유가 믿음성 때문인데 믿음성을 해결해준다.
-</br>
+<br/>
 
 ```javascript
 var p1 = new Promise(function(resolve, reject) {
@@ -63,7 +63,7 @@ Promise.resolve(p).then(
 ```
 
 자 그럼 이제 할 일은 아래와 같다. 만일 `foo()` 가 어떤 비동기 행위이며 **반환값이 프로미스**인지 확신하게끔 만들자.
-</br>
+<br/>
 
 ```javascript
 foo(42).then(function(v) {
@@ -76,16 +76,16 @@ Promise.resolve(foo(42)).then(function(v) {
 ```
 
 이러면 어떠한 경우에도 무리가 없다. 믿음이 확실해진다.
-</br>
-</br>
+<br/>
+<br/>
 
 ## 익숙한 ajax
 
 그럼 자주 사용하는 `ajax` 에 응용해보자.
-</br>
+<br/>
 
 가장 중요하게 기억해야 할 것은 기존의 콜백은 백그라운드에서 호출, 프로미스는 호출스택에서 호출한다는 점이다.
-</br>
+<br/>
 
 ```javascript
 function request(url) {

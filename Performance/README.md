@@ -1,19 +1,19 @@
 # Performance
 
 간략하게 오늘 다른 곳에서 읽었던 것을 정리해보고자 한다.
-</br>
+<br/>
 
 생각해보면 당연하면서 생각하지 못했을 수 도 있을 것 같아서 정리를 해두려고 한다.
 
-</br>
-</br>
+<br/>
+<br/>
 
 ## 5 Tips to Write Better Conditionals in JavaScript
 
 자바스크립트를 더 좋은 상태로 작성하는 5가지 방법이 있다.
 
-</br>
-</br>
+<br/>
+<br/>
 
 ### 1. Array.includes 사용하기 => IE 지원이 안됨
 
@@ -23,11 +23,11 @@ if (fruit == 'apple' || fruit == 'strawberry') {console.log('red');}
 
 ```
 
-</br>
+<br/>
 
 우리가 흔히? 사용하는 것으로는 `||`이 있다. 또는(or) 이라고 부르는 것을 `Array.includes`를 사용하면 좀 더 간편하게 구현이 가능하다.
 
-</br>
+<br/>
 
 ```javascript
 function test(fruit) {
@@ -38,12 +38,12 @@ function test(fruit) {
 }
 ```
 
-</br>
+<br/>
 
 직역을 하자면 `포함을 하고 있냐?` 로 만약 해당 리스트에 내가 확인하려는 값이 있다면 `true`를 `return`하는 것이다.
 
-</br>
-</br>
+<br/>
+<br/>
 
 ## 2. Less Nesting, Return Early (덜 겹치기, 빨리 반환하기)
 
@@ -64,11 +64,11 @@ function test(fruit, quantity) {
 }
 ```
 
-</br>
+<br/>
 
 기존처럼 작성을 한다고 하면, `if`문으로 감싸서 fruit가 있다면으로 분기를 처리하고 `else`로 분기를 처리했다면, 여기서는 애초에 필요없는 부분을 거르고 시작을 한다.
 
-</br>
+<br/>
 
 ```javascript
     /_ return early when invalid conditions found _/
@@ -91,12 +91,12 @@ function test(fruit, quantity) {
 }
 ```
 
-</br>
+<br/>
 
 위의 경우는 한발짝 더 나아가 error 마져 먼저 처리를 한다.
 
-</br>
-</br>
+<br/>
+<br/>
 
 ## 3. Default 함수 매개변수를 사용한다.
 
@@ -113,7 +113,7 @@ function test(fruit, quantity = 1) {
     // We have 2 apple!
 ```
 
-</br>
+<br/>
 
 ```javascript
     // destructing - get name property only
@@ -131,12 +131,12 @@ function test(fruit, quantity = 1) {
     // apple
 ```
 
-</br>
+<br/>
 
 위의 경우는 매개변수를 Object로 보냈지만 함수 내부에서 Object안에 특정 값만을 가져와서 사용하는 방법이다.
 
-</br>
-</br>
+<br/>
+<br/>
 
 ## 4. Map, Object literal을 switch보다 선호하다.
 
@@ -148,12 +148,12 @@ function test(color) {
     return fruitColor[color] || [];}
 ```
 
-</br>
+<br/>
 
 위의 경우를 보게 되면 결과 return으로써 Map or Object를 사용함으로써 여러개로 나뉘는 분기문을 사용하지 않게 되는 것이다.
 
-</br>
-</br>
+<br/>
+<br/>
 
 ### Array.filter를 사용한 구문 리팩토링
 
@@ -165,15 +165,15 @@ function test(color) {
     return fruits.filter(f => f.color == color);}
 ```
 
-</br>
-</br>
+<br/>
+<br/>
 
 ## 5. Array.every & Array.some 사용하기 (전체확인, 부분확인을 위해서) => 모든 브라우저 호환가능
 
 일단 위에 2개의 function은 매개변수로 function을 받는다. 위에서 언급한 includes는 literal을 받는다.
 
-</br>
-</br>
+<br/>
+<br/>
 
 ### every
 
@@ -186,8 +186,8 @@ function test(fruits) {
 }
 ```
 
-</br>
-</br>
+<br/>
+<br/>
 
 ### some
 
@@ -201,9 +201,9 @@ function test(fruits) {
 }
 ```
 
-</br>
-</br>
-</br>
+<br/>
+<br/>
+<br/>
 
 ## 좋은 코드를 위한 7가지 간단한 코딩 규칙
 
@@ -228,16 +228,16 @@ function test(fruits) {
 7. 테스트 케이스 딱 한 개라도 만들어놓고 시작
     - 당장은 못하더라도, 기능 추가/수정하거나 리팩토링할 때 테스트를 추가하기 쉽다.
 
-</br>
-</br>
+<br/>
+<br/>
 
 ## 참고
 
 - [스위치문을 Object Literal로 대체하자!!](https://toddmotto.com/deprecating-the-switch-statement-for-object-literals/)
 - [5 Tips to Write Better Conditionals in JavaScript](https://scotch.io/tutorials/5-tips-to-write-better-conditionals-in-javascript#toc-3-use-default-function-parameters-and-destructuring)
 
-</br>
-</br>
+<br/>
+<br/>
 
 ### 번외
 

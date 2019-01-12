@@ -7,31 +7,31 @@
 3. Promise
 4. Async-Await
 
-</br>
+<br/>
 
 ## 먼저 :smile:
 
 그전에 가장 먼저 `for-of`에 대해서 알아보자
-</br>
+<br/>
 우리가 흔히 사용하고 많이 사용하는 `for`문이 있다. 그러나 어디서부터 어디까지 지정을 하는것이 아닌 전체를 순회한다고 하면 `for-in`이나 `foreach`를 사용한다.
-</br>
+<br/>
 `for-in`은 각각의 `key`를 받아와서 그 키를 가지고 `value`를 가져와야하며 `foreach`는 중간에 나올 수 없다는 단점을 가지고 있다.
-</br>
+<br/>
 
 **이러하여 생긴것이 `for-of` 이다.**
-</br>
+<br/>
 
 **ECMA2015**에 새로운 문법으로 추가가 되었으며 이것은 배열은 물론 `object`까지 순회가 가능하다.(물론 key가 있어야 가능)
-</br>
+<br/>
 
 **for-of문은 열거가 가능한 객체라면 무엇이든 순회가 가능하다.**
-</br>
+<br/>
 
 그렇다면 열거가능한 객체란 무엇인가? 
 
 :point_right: 배열(Array)는 물론, TypedArray, 문자열(String), Map, Set, DOM Collection 등을 말한다.
 
-</br>
+<br/>
 
 ```javascript
 /* array */
@@ -82,22 +82,22 @@ for (let paragraph of articleParagraphs) {
 ```
 
 어떻게 순회를 할 수 있는 것일까 :grey_question:
-</br>
+<br/>
 
 :point_right: **`iterator` 덕분이다.**
-</br>
+<br/>
 
 `Collection`들은 내부적으로 `Iterable Protocol`을 구현한다.
-</br>
-</br>
+<br/>
+<br/>
 
 ## Iterable Protocol
 
 어떤객체가 순회가 되기 위해서는 `iteration`동작에 대해 정의가 되어 있어야 한다.
-</br>
+<br/>
 
 `Iterable Protocol`에 의하면 `Iterator`는 `next()`함수를 구현해야하고 이 함수는 결과값으로 `{value: value, doen: boolean}` 같은 객체를 반환해야 한다고 한다.
-</br>
+<br/>
 
 Ex) 구현해보기
 
@@ -135,13 +135,13 @@ while (!result.done) {
 ```
 
 `ECMA2015`에서는 `Iterator protocol`을 이용하여 열거가능한 객체를 만들 수 있다.
-</br>
+<br/>
 
 `[Symbol.iterator]()` 와 `next()`를 이용하면 쉽게 정의할 수 있다.
-</br>
+<br/>
 
 `for-of`는 `[Symbol.iterator]()`를 호출하여 반복을 실행하게 된다.
-</br>
+<br/>
 
 예제 :point_down:
 
@@ -166,21 +166,21 @@ for (var value of iterable) {
 }
 ```
 
-</br>
-</br>
+<br/>
+<br/>
 
 ## Generator
 
 `Iterator`와 비슷한 이녀석은 일종의 **코루틴(Co-Routine)**인데, 다른 언어에서는 곧 잘 사용하는 개념이다.
 
 > 코루틴(Co-Routine) : 어느 작업을 하다가 중간에 멈추고  멈춘부분부터 다시 시작이 가능한
-</br>
+<br/>
 
 `Generator`는 함수 실행도중에 잠시 멈췄다가 다시 실행할 수 있는 독특한 함수이다. `Generator`는 `function*`키워드를 사용해서 생성하며,
-</br>
+<br/>
 
 **`Generator`를 호출하면 실행되는 것이 아니라 `Iterator`객체가 반환된다.**
-</br>
+<br/>
 
 따라서 `Iterator`에서 구현한 `next()` 함수를 호출하면 `Generator`가 실행되면서 `yield`를 만날 때까지 실행되고, 이때 컨텍스트는 저장된 상태로 남아 있게 된다.
 
@@ -200,15 +200,15 @@ console.log(get.next());
 console.log(get.next());
 ```
 
-</br>
+<br/>
 
 `Generator`를 사용하면 `Iterable Protocol`을 구현하는 것보다 좀 더 쉽게 `Iterator`를 사용할 수 있다.
-</br>
+<br/>
 
 `Generator`의 진면목은 비동기 프로그래밍에서 볼 수 있다. 함수가 실행 도중에 멈춘다니. 언제 응답이 올지 알 수 없기 때문에, `callback`을 등록하는 비동기 프로그래밍에 응용하면 `callback hell`을 탈출할 수 있지 않을까?
-</br>
+<br/>
 
-`generator`도 역시 `ES5`스펙이 아니다 `ES6`이다.</br>
+`generator`도 역시 `ES5`스펙이 아니다 `ES6`이다.<br/>
 그렇다면 `Generator`는 또 어떻게 구현이 되어있는 것인가?
 
 ```javascript
@@ -242,19 +242,19 @@ function foo() {
 ```
 
 `Genrator`는 결국 `iterable Protocel`를 구현하는 객체이다. 그러나 프로토콜과 관련된 어느것도 보이지 않는다. 
-</br>
+<br/>
 
 대신 `regeneratorRuntime`이것이 보인다.
-</br>
+<br/>
 
 `babel`에서는 `regeneratorRuntime`라이브러리를 사용해서 구현을 했다.
-</br>
+<br/>
 
 코드의 역사를 따라가다 보면 `facebook/regenerator repository`에 도달하게 된다.
-</br>
+<br/>
 
 > [https://github.com/facebook/regenerator/blob/master/packages/regenerator-runtime/runtime.js](https://github.com/facebook/regenerator/blob/master/packages/regenerator-runtime/runtime.js)
-</br>
+<br/>
 
 이 라이브러리는 2013년 `Node.js v0.11.2`에서 `generator syntax`를 지원하기 위해 만들어 졌으며, `Babel`에서는 이 라이브러리를 사용하여 `generator`를 구현하고 있다.
 실제 코드를 들여다보면 `Symbol`과 `Iterator`를 이용해서 `Iterable Protocol`을 구현하고 있다.
@@ -262,7 +262,7 @@ function foo() {
 ## Async-await
 
 이제 본론으로 돌아와서 `Async-await`은 어떻게 구현이 되었는가??
-</br>
+<br/>
 
 `Async-await`는 `ECMA-262`에서 초안으로 처음 등장했으며, `ECMAScript 2017`에서 표준으로 정의되었다.(`ES8`에서 표준이 되었다.)
 
@@ -319,34 +319,34 @@ function _asyncToGenerator(fn) {
 ```
 
 위에 컴파일됨 구문을 보게 되면 `async keyword`를 `generator`로 바꾸고 `await keyword`는 `yield`로 바꾸었다.
-</br>
+<br/>
 
 `Generator`는 `yield`를 만날 때까지 실행된다. 이때 `Context`는 저장된 상태로 남아있게 된다.
-</br>
+<br/>
 
 즉 `Generator`로 비동기 로직이 끝날때마다 적절히 `next()`를 적절하게 호출해주면 `Async-Await`함수가 만들어 지는 것이다.
-</br>
+<br/>
 
 그러나 `bar()`함수의 작업이 종료되는 시점은 `bar()`함수밖에 모른다. 그렇다고 `next()`를 `bar()`함수 내에서 직접 실행하게 된다면 의존성이 생기게 된다. 
-</br>
+<br/>
 
 그렇다면 어떻게 의존성을 분리 할 수 있을까?
-</br>
+<br/>
 
 :star::star: `Promise` :star::star:
-</br>
+<br/>
 
 `Babel`은 `promise`와 `재귀함수`를 이용하여 `next()`를 대신 호출해주는 함수를 만드는데, 그게 바로 `_asyncToGenerator`이다.
-</br>
+<br/>
 
 `fn.apply`를 실행하여 인자로 넘어온 `Generator`를 실행하여 `iterator`객체를 **클로저로 저장해둔다.** 나머지는 클로저에 저장한 `iterator`를 실행시키고, 반환된 `promise`객체를 재귀함수를 토해 반복실행
-</br>
+<br/>
 
 정리하자면 `Generator`는 비동기적 패턴을 `yield`를 통해 동기적인 “모습"으로 바꾸어주고, `Promise`는 `Generator`로 만든 `iterator`를 반복해서 실행해주는 역할을 한다. `await keyword`에 사용하는 함수가 항상 `promise`를 반환해야하는 이유가 여기에 있다.
-</br>
+<br/>
 
 > Promise => **프로미스는 자바스크립트 비동기 처리에 사용되는 객체입니다.** 여기서 자바스크립트의 비동기 처리란 ‘특정 코드의 실행이 완료될 때까지 기다리지 않고 다음 코드를 먼저 수행하는 자바스크립트의 특성’을 의미합니다
-</br>
+<br/>
 
 :point_right: `Promise`로만 구현할 경우
 
@@ -385,8 +385,8 @@ const makeRequest = async () => {
 }
 ```
 
-</br>
-</br>
+<br/>
+<br/>
 
 ## 참고
 

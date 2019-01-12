@@ -1,6 +1,6 @@
 # 객체지향 프로그래밍
 
-</br>
+<br/>
 
 ## 객체지향 프로그래밍(OOP)이란?
 
@@ -10,7 +10,7 @@
 
 객체지향 프로그래밍을 이용하면 **코드의 재사용이 용이**하고 **유지보수가 쉽다**는 장점이 있다.
 
-</br>
+<br/>
 
 ## 클래스와 인스턴스
 
@@ -42,7 +42,7 @@ bkjang.setJob('JS Developer');
 console.log(bkjang.getJob()); //JS Developer
 ```
 
-</br>
+<br/>
 
 ## 추상화
 
@@ -50,7 +50,7 @@ console.log(bkjang.getJob()); //JS Developer
 
 예를 들어, 사람은 이름, 나이, 직업, 키 등의 여러 정보가 있지만 **위의 소스 코드에서는 사람의 직업에 대해서만 속성을 뽑아내고 이를 객체로 정의**하였다. 이 과정을 **추상화**라고 한다.
 
-</br>
+<br/>
 
 ## 캡슐화
 
@@ -58,7 +58,7 @@ console.log(bkjang.getJob()); //JS Developer
 
 물론, **캡슐화는 모듈화(modularity)의 의미가 더 강하지만 잘된 캡슐화는 정보 은닉의 내용을 포함**한다.
 
-</br>
+<br/>
 
 ## 상속
 
@@ -90,7 +90,7 @@ bkjang.setJob('JS Developer');
 console.log(bkjang.getJob()); //JS Developer
 ```
 
-</br>
+<br/>
 
 ## 다형성
 
@@ -137,7 +137,7 @@ jsDeveloper.getJob(); //Front Developer
 jsDeveloper.getName(); //BKJang
 ```
 
-</br>
+<br/>
 
 ### **오버로딩(Overloading)**
 

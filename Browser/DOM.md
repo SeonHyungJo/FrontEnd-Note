@@ -1,36 +1,36 @@
 # DOM이란 :question:
 
-</br>
+<br/>
 
 ## Document Object Model :+1:
 
 웹 서버를 통해서 받은 html코드를 브라우저가 해석을 한 후에 Javascript객체를 통해 **계층화한 구조체** 를 의미한다.
-</br>
+<br/>
 
 ## DOM은 Javscript Node개체의 계층화된 트리
 
 :collision:즉 Console로 찍어보면 Document는 Node의 하위에 있는 객체다. :collision:
-</br>
+<br/>
 
 또한 document(Document와는 완전히 다름)는 Object로 HTMLDocument의 하위 인스턴스로 우리가 실제로 아는 조작을 하는 트리이다.
 
-</br>
+<br/>
 
 - 문서의 구조화된 표현을 제공하며 프로그래밍 언어가 DOM 구조에 접근할 수 있는 방법을 제공한다.
 - 문서 구조, 스타일, 내용 등을 변경할 수 있게 돕는다.
 
-</br>
+<br/>
 
 우리가 위와같이 조작을 할 수 있는 이유는 DOM API를 제공하기 때문이다.
 아래의 사진은 Node하위 구조를 보여주고 있다.
 
-</br>
+<br/>
 
 ![DOM 계층](https://web.stanford.edu/class/cs98si/img/dom_types.png)
 
 처: [http://www.stanford.edu/class/cs98si/slides/the-document-object-model.html](http://www.stanford.edu/class/cs98si/slides/the-document-object-model.html)
 
-</br>
+<br/>
 
 프로토타입 기반으로 본다면 아래와 같은 구조를 가지고 있다.
 
@@ -40,7 +40,7 @@ Object < EventTarget < Node < DocumentType < <!DOCTYPE html>(ElementNode)
 Object < EventTarget < Node < Element < HtmlElement < HtmlhtmlElement < html(ElementNode)
 ```
 
-</br>
+<br/>
 
 - 결국 아래 코드와 같이 html ElementNode는 상속(Object, EventTarget, Node, Element, HtmlElement, HTMLhtmlElement) 받은 모든 객체의 속성 및 메서드들을 사용할 수 있게되는 것이다. :bulb:
 
@@ -56,7 +56,7 @@ console.log(html.__proto__.__proto__.__proto__.__proto__.__proto__); // EventTar
 console.log(html.__proto__.__proto__.__proto__.__proto__.__proto__.__proto__); // Object
 ```
 
-</br>
+<br/>
 
 :key: 정리를 하자면
 

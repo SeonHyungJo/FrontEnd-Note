@@ -1,21 +1,21 @@
 # Javascript Module
 
 Java나 Python과 같은 OOP 언어들에서는 Class라는 이름으로 객체지향프로그래밍을 구현해왔다.
-</br>
+<br/>
 OOP의 특징으로는 널리 알려져있듯 encapsulation, inheritance, polymorphism이 있습니다. 그 중 자바스크립트의  scope를 공부하고 있었는데 이 encapsulation과 관련이 있었으며, 자연스레 class와 비슷한 기능을 하는 자바스크립트의 module을 공부하게 되었다.
-</br>
+<br/>
 
 javascript에서는 이 scope를 기준으로 캡슐화를 한다. 그래서 자연스레 이 scope를 이용하여 외부로부터 보호하려는 노력이 있어왔다. ES5에서는 당연히도 함수의 scope를 이용해 encapsulation을 시도했다. 또한 자신의 스코프의 참조를 가진다는 클로저를 이용해 내부 속성들을 사용할 수 있게 했다.
 
-</br>
-</br>
+<br/>
+<br/>
 
 ## ES5의 모듈화
 
 크게 세가지가 있었다.IIFE(즉시실행함수표현식), 노출식 모듈 패턴, AMD다. 여기서 AMD는 크게 중요하지 않다고 생각되어 define을 사용한다고만 하고 넘어가겠다.
 
-</br>
-</br>
+<br/>
+<br/>
 
 ### IIFE
 
@@ -42,12 +42,12 @@ doSomething(moduleFunction.a);
 
 ```
 
-</br>
+<br/>
 
 함수를 바로 실행시킨 뒤 object를 반환하여 전역 네임을 한번만 사용하여 스코프를 오염시키지 않는다. 또한 외부에서 내부 코드로의 접근을 차단하여 보호한다. 모듈의 개념을 잘 이행하고 있다. 다만 의존성관리가 되지 않는다. 코드를 재 작성하지 않으면 다른 파일에서 재사용이 불가능하다.
 
-</br>
-</br>
+<br/>
+<br/>
 
 ### 노출식 모듈패턴
 
@@ -72,12 +72,12 @@ singleton.sayHello();
 doSomething(singleton.a);
 ```
 
-</br>
+<br/>
 
 비슷하다. 이 역시 문제는 의존성관리가 안된다.
 
-</br>
-</br>
+<br/>
+<br/>
 
 ## Node JS의 모듈화
 
@@ -93,7 +93,7 @@ module.exports = function(){
 ```
 
 와 같은 구조다. 흔히들 봤었던 `require`,  `module.exports` 구조다. 외부의 dep1.js를 `module.exports`로 내보내고 `require()`로 불러와 사용하는 방식이다. 사실 내부적으로는 IIFE와 크게 다르지 않습니다. 내보낼 module을 파라미터로하여 IIFE를 실행시키고 반환하는 방식입니다.
-</br>
+<br/>
 하지만 파일 외부에서 작성하고 불러온다는 점에서 많이 나아졌습니다.
 
 ## ES6 Module
@@ -117,16 +117,16 @@ import { helloWorld as hello } from './some';
 hello();  
 ```
 
-</br>
+<br/>
 
 이렇게 하면 파일을 분리하고 그 파일에서 필요한 부분만 반환하여 사용할 수 있게 됩니다. 또한 재사용성이 극대화되어 의존성 관리도 가능하게 됩니다.
-</br>
+<br/>
 
 현재 예제 코드에서는 함수만 반환했지만 당연히 object도 가능합니다.
-</br>
+<br/>
 
 또한 단일 값을 반환할걍으 default 형식을 지원합니다. 이 경우 {} 를 사용하지 않아도 됩니다.
-</br>
+<br/>
 
 ```javascript
 // lib.js

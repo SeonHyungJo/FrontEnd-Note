@@ -12,7 +12,7 @@
 </div>
 ```
 
-</br>
+<br/>
 
 ```css
 #container {
@@ -45,7 +45,7 @@
 }
 ```
 
-</br>
+<br/>
 
 ```javascript
 function myMove() {
@@ -60,15 +60,15 @@ function myMove() {
 
 - [@keyframes에 관한 구체적인 예시](https://poiemaweb.com/css3-animation)
 
-</br>
-</br>
+<br/>
+<br/>
 
 ## 트랜지션(Transition) :vs: 애니메이션(Animation)
 
 CSS 속성에 Transition과 Animation이라는 요소가 있다 둘다 움직임을 표현할 수 있는데 차이점이 있다.
 
-</br>
-</br>
+<br/>
+<br/>
 
 ### 트랜지션(Transition)
 
@@ -76,16 +76,16 @@ CSS 속성에 Transition과 Animation이라는 요소가 있다 둘다 움직임
 - `hover`나 `click` 같은 **이벤트 트리거에 의해 동작**
 - Layout을 변경시킬 경우, Reflow 발생을 줄이기 위해 **낮은 계층의 요소에 효과를 주는 것이 좋음**
 
-</br>
-</br>
+<br/>
+<br/>
 
 ### 애니메이션(Animation)
 
 - 트랜지션은 시작하기 위해 이벤트가 필요하지만 애니메이션은 **시작, 정지, 반복까지 제어 가능**(물론, 이벤트 제어도 가능)
 - 하나 또는 복수의 **`@keyframes`으로 이루어짐**
 
-</br>
-</br>
+<br/>
+<br/>
 
 ## JS 애니메이션
 
@@ -97,7 +97,7 @@ CSS 속성에 Transition과 Animation이라는 요소가 있다 둘다 움직임
 </div>
 ```
 
-</br>
+<br/>
 
 ```css
 #container {
@@ -114,7 +114,7 @@ CSS 속성에 Transition과 Animation이라는 요소가 있다 둘다 움직임
 }
 ```
 
-</br>
+<br/>
 
 ```javascript
 function myMove() {
@@ -133,14 +133,14 @@ function myMove() {
 }
 ```
 
-</br>
+<br/>
 
 JS애니메이션으로 위의 CSS애니메이션과 같은 효과를 입힌 코드다.
 
 **JavaScript 코드를 보면 `setInterval`을 주고 일정 주기마다 `frame()` 함수를 실행시켜 요소의 위치를 이동**시키고 있다.
 
-</br>
-</br>
+<br/>
+<br/>
 
 ## CSS 애니메이션과 JS 애니메이션의 차이
 
@@ -154,8 +154,8 @@ CSS 애니메이션은 낮은 버전의 브라우저에서는 지원을 하지 �
 2. 실행 로직을 브라우저 자체에서 실행하기 때문에 메모리 소비를 최적화 해준다.
 3. JavaScript에서는 css, 동작을 모두 관리해줘야하는 반면, CSS애니메이션은 CSS안에서 다 관리하기 때문에 관리에 용이하다.
 
-</br>
-</br>
+<br/>
+<br/>
 
 ## velocity.js(라이브러리)
 
@@ -170,8 +170,8 @@ CSS 애니메이션은 낮은 버전의 브라우저에서는 지원을 하지 �
 - `setInterVal()`이 아닌 `requestAnimationFrame()`을 사용하기 때문에 **브라우저가 최적의 상태인지 판단하고 실행**
 - 3d-transform과 같은 애니메이션에는 CSS의 작성이 필요함.
 
-</br>
-</br>
+<br/>
+<br/>
 
 ## 참고
 

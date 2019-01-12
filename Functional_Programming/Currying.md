@@ -2,22 +2,22 @@
 
 함수형 프로그래밍을 간단하게 정리를 하면서 언급이 되었던 **커링** 이다. 함수형 프로그래밍에서 순수함수로 작성된 함수를 여러개를 한번에 사용하기 위해서는 커링을 만들어서 사용한다고 했다.
 
-</br>
+<br/>
 
 > [함수형 프로그래밍이란?](https://github.com/SeonHyungJo/FrontEnd-Dev/tree/master/Functional_Programming)
 
-</br>
+<br/>
 
 이번에는 커링을 만드는 방법이라는 블로그가 있어서 읽어보면서 간단하게 정리를 하였다.
 
-</br>
-</br>
+<br/>
+<br/>
 
 ## 커링이란 :question:
 
 > 다중 인수를 갖는 함수를 **단일 인수를 갖는 함수들의 함수열로 바꾸는 것을 말한다.** 모지즈 쇤핑클에 의해 도입 되었고, 이후 하스켈 커리에 의해 발전하였다. <- 무슨말을 이렇게 거창하게 할 수 있나?
 
-</br>
+<br/>
 
 쉬운 말로하자면, 우리가 기본적으로 함수를 만들면 여러개의 인자를 가지는 함수를 만들게 된다. 그러나 여기서 **커링은 단일인자를 가지는 함수들로 연결을 하자는 것이다.** 여기서 제일 중요한 것은 **연결!!**
 
@@ -29,7 +29,7 @@ let sum = function (x, y) {
 console.log(sum(5, 7)); // 12
 ```
 
-</br>
+<br/>
 
 ```typescript
 let sum = function (x) {
@@ -43,7 +43,7 @@ console.log(sum(5)(7)); // result : 12
 
 위의 코드를 아래쪽으로 변경을 했다. 아래를 보게 되면 우리가 흔히 많이 알고 있는 Closure를 사용해서 인자를 하나씩 2번 받도록하는 기능을 추가 했다.
 
-</br>
+<br/>
 
 위의 예제처럼 사용함으로써
 
@@ -53,7 +53,7 @@ console.log(sum(5)(7)); // result : 12
 
 가 쓰였다.
 
-</br>
+<br/>
 
 ```typescript
 let sum = x => y => x+y;
@@ -63,14 +63,14 @@ let sum12 = sum5(7);
 console.log(sum12, sum(5)(7)); // 12 12
 ```
 
-</br>
+<br/>
 
 커링을 왜 해야하는것이며, **함수의 인자를 나눠서 얻는 이득이란?**
 
 :star2: ***역시 재사용성에 좋다*** :star2:
 
-</br>
-</br>
+<br/>
+<br/>
 
 ```typescript
 let printInfo = function(group, name){
@@ -80,7 +80,7 @@ let printInfo = function(group, name){
 printInfo('developer', 'haegul'); // developer, haegul
 ```
 
-</br>
+<br/>
 
 ```typescript
 // print
@@ -89,8 +89,8 @@ printInfo('developer', 'jiwon'); // developer, jiwon
 printInfo('developer', 'sungcheon'); // developer, sungcheon
 ```
 
-</br>
-</br>
+<br/>
+<br/>
 
 ### 위의 코드를 재사용성을 높인다면:question:
 
@@ -104,7 +104,7 @@ devGroup('jiwon'); // developer, jiwon
 devGroup('sungcheon'); // developer, sungcheon
 ```
 
-</br>
+<br/>
 
 ```typescript
 let greetDeeplyCurried = greeting => separator => emphasis => name => console.log(greeting + separator + name + emphasis); // 커링 구현
@@ -123,8 +123,8 @@ let askHello = sayHello("?");
 askHello("haegul"); // Hello, haegul?
 ```
 
-</br>
-</br>
+<br/>
+<br/>
 
 ## call, apply
 
@@ -141,8 +141,8 @@ var curry = function(uncurried) {
 };
 ```
 
-</br>
-</br>
+<br/>
+<br/>
 
 ## Usage
 
@@ -158,8 +158,8 @@ let increment = add.bind(undefined, 1);
 console.log(increment(4) === 5); // true
 ```
 
-</br>
-</br>
+<br/>
+<br/>
 
 ### Redux
 
@@ -177,8 +177,8 @@ export default connect(null, actionCreators)(TodoApp)
 export default connect(state => state)(TodoApp)
 ```
 
-</br>
-</br>
+<br/>
+<br/>
 
 ### Vuex
 
@@ -192,8 +192,8 @@ getTodoById: (state, getters) => (id) => {
     store.getters.getTodoById(2) // -> { id: 2, text: '...', done: false }
 ```
 
-</br>
-</br>
+<br/>
+<br/>
 
 ### Event Handler
 
@@ -213,8 +213,8 @@ renderH1('and this is an even cooler h1')
 )
 ```
 
-</br>
-</br>
+<br/>
+<br/>
 
 ### Rendering HTML
 
@@ -230,8 +230,8 @@ console.log(
   renderH1('and this is an even cooler h1')
 )
 ```
-</br>
-</br>
+<br/>
+<br/>
 
 ## 참고
 
