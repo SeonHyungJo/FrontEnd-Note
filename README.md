@@ -73,6 +73,7 @@ Space for  making up Frond-End knowledge
 
 - [Head Meta](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/HTML/Head_Meta.md)
 - [HTTPS](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/HTML/HTTPS.md)
+- [Head Meta](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/HTML/TabIndex.md)
 
 ### JavaScript
 
@@ -139,7 +140,7 @@ Space for  making up Frond-End knowledge
 - [CORS(Cross-Origin Resource Sharing)](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Security/CORS(Cross-Origin%20Resource%20Sharing).md)
 - [XSS와 CSRF](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Security/XSS%EC%99%80%20CSRF.md)
 
-## FEConf 2018(진행중)_완료예정_12월_07일
+## FEConf 2018
 
 ### Section1
 
