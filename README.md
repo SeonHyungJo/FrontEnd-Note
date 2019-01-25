@@ -125,12 +125,6 @@ Space for  making up Frond-End knowledge
 
 <br/>
 
-### Prototype
-
-
-
-<br/>
-
 ### Reactive
 
 - [Reactive](https://github.com/SeonHyungJo/FrontEnd-Dev/tree/master/Reactive)
