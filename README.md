@@ -5,9 +5,12 @@ Space for  making up Frond-End knowledge
 **Chapter1 I'm beginner**
 
 <br/>
-<br/>
 
 ## Contents
+
+### How to use MarkDown
+
+- [MarkDown Cheat Sheet](https://github.com/SeonHyungJo/How-to-use-MarkDown)
  
 ### Browser
 
@@ -92,6 +95,7 @@ Space for  making up Frond-End knowledge
 - [NPX](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/NPX.md)
 - [Object 생성자는 사용하지 말자](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Problem_of_new_Object.md)
 - [Prototype](https://github.com/SeonHyungJo/FrontEnd-Dev/tree/master/Javascript/Prototype.md)
+- [Proxy](https://github.com/SeonHyungJo/FrontEnd-Dev/tree/master/Javascript/Proxy.md)
 - [Reduce](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Reduce.md)
 - [StateManagement](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/StateManagement.md)
 - [Strict_Mode](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Strict_Mode.md)
