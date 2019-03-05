@@ -121,3 +121,67 @@ Map을 통해 알아보기
 
     const a = [1,2]
     console.log([...a, ...[3,4]])
+
+# 2일차
+
+### 제너레이터/이터레이터
+- 제너레이터 : 이터레이터이자 이터러블을 생성하는 함수
+
+    function *gen() {
+    
+    	yield 1;
+    	yield 2;
+    	yield 3;
+    	return 100; // done이 true일 때의 value값
+    }
+    
+    	let iter = gen()
+    	console.log(iter[Symbol.iterator]() == iter);
+    	console.log(iter.next());
+    	console.log(iter.next());
+    	console.log(iter.next());
+    	console.log(iter.next());
+
+무엇이든 순회할 수 있는 값을 만들어 주는 제어레이터
+
+제너레이터를 통해서 다양한 값을 순회하는 것을 만들 수 있음
+
+### odds
+
+    function *infinity(i=0){
+    	while(true) yield i++;
+    }
+    
+    function *limit(l, iter) {
+    	for (const a of iter){
+    		yield a;
+    		if(a == l) return
+    	}
+    }
+    
+    function *odds(l) {
+    	for( const a of limit(l, infinity(1))){
+    		if(a% 2) yield a;
+    	}
+    }
+    
+    let iter2 = odds(10);
+    
+    console.log(iter2.next());
+    console.log(iter2.next());
+    console.log(iter2.next());
+    console.log(iter2.next());
+    console.log(iter2.next());
+    console.log(iter2.next());
+    
+    for(const a of odds(40) console.log(a)
+
+### for of, 전개 연산자, 구조 분해, 나머지 연산자
+
+    console.log(...odds(10));
+    console.log([...odds(10), ...odds(20)]);
+    
+    const [a, b, ...tail] = odds(5);
+    console.log(a)
+    console.log(b)
+    console.log(tail)
