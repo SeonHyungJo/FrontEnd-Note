@@ -185,3 +185,76 @@ Map을 통해 알아보기
     console.log(a)
     console.log(b)
     console.log(tail)
+
+## 8.7 yield *, L.deepFlat
+
+### yield *
+
+    L.flatten = function *(iter) {
+      for (const a of iter) {
+        if (isIterable(a)) for (const b of a) yield b
+        else yield a;
+      }
+    };
+
+`yield *` 을 활용하면 위 코드를 아래와 같이 변경할 수 있습니다. `yield *iterable`은 `for (const val of iterable) yield val;` 과 같다
+
+    L.flatten = function *(iter) {
+      for (const a of iter) {
+        if (isIterable(a)) yield *a; // <=요부분을 축소 시킬 수 있다.
+        else yield a;
+      }
+    };
+
+### L.deepFlat
+
+만일 깊은 Iterable을 모두 펼치고 싶다면 아래와 같이 L.deepFlat을 구현하여 사용할 수 있습니다. L.deepFlat은 깊은 Iterable을 펼쳐줍니다.
+
+ES9에 추가가 되니 flat과 같은 기능을 하는 듯 polyfill느낌이 난다.
+
+    L.deepFlat = function *f(iter) {
+      for (const a of iter) {
+        if (isIterable(a)) yield *f(a);
+        else yield a;
+      }
+    };
+    log([...L.deepFlat([1, [2, [3, 4], [[5]]]])]);
+
+## 8.8 L.flatMap, flatMap
+
+말그대로 javascript의 flat과 map을 동시에 작업을 하는 것이다.
+
+map을 하고 flatten을 하게 되면 map의 단계가 지나면 array의 array가 나오게 되어 비효율이다.
+
+그러나 시간복잡도는 동일하다.
+
+    console.log([1, 2], [3, 4], [5,6,7,]).flatMap(a => a))
+    console.log([1, 2], [3, 4], [5,6,7,]).flatMap(a => a * a))
+    console.log(flatten([1, 2], [3, 4], [5,6,7,]).map(a => a.map(a => a * a))
+    console.log(flatten([1, 2], [3, 4], [5,6,7,]).map(a => a.map(a => a * a))
+
+    L.flatMap = currypipe((L.map, L.flatten));
+    
+    var it = L.flatMap(a => a, [[1, 2], [3, 4], [5,6,7,]]);
+
+## 8.9 2차원 배열 다루기
+
+2차원배열은 당연하게 flat으로 펼칠수 있구나
+
+    const arr = [
+    	[1, 2],
+    	[3, 4, 5],
+    	[6, 7, 8],
+    	[9, 10]
+    ];
+    
+    go(arr,
+    	L.flatten,
+    	L.filter(a => a % 2)
+    	take(3),
+    	console.log
+    );
+
+## 8.10 이터러블 중심 프로그래밍 실무적인 코드
+
+지연성을 사용하여 실무적인 코드를 만들어서 사용한다.
