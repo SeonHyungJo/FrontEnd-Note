@@ -7,13 +7,15 @@
 1. **Custom Elements**
 
 간단하게 이건 사용자 정의 템플릿, 동작 및 태그 이름을 가진 완전히 HTML 요소이다. 자바 스크립트 API로 만들어졌으며, 사용자 정의 요소는 **HTML Living Standard** 사양에 정의되어있다.
-1. **Shadow DOM**
+
+2. **Shadow DOM**
 
 `<iframe>` 과 거의 비슷하다. **CSS와 JavaScript를 분리** 할 수 ​있는 것이 특징이다. 이것은 **Living Standard DOM** 사양에 정의되어있다.
 
 3. **HTML template**
 
 호출 될 때까지 렌더링되지 않는 HTML의 사용자 정의 템플릿. `<template>` 태그는 **HTML Living Standard** 사양에 정의되어있다.
+<br/>
 
 ## **Custom Elements**
 
@@ -26,6 +28,8 @@
 ### 예제(CodePen)
 
 [https://codepen.io/seonhyungjo/pen/jJJZLr](https://codepen.io/seonhyungjo/pen/jJJZLr)
+
+<br/>
 
 ## **Shadow DOM**
 
@@ -84,6 +88,8 @@ shadowRoot는 `<slot>` 요소를 사용하여 포함 된 문서의 내용을 포
 ### 예제
 
 [https://codepen.io/seonhyungjo/pen/zbbWyg](https://codepen.io/seonhyungjo/pen/zbbWyg)
+
+<br/>
 
 ## **HTML template**
 
