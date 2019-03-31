@@ -38,29 +38,29 @@ Space for  making up Frond-End knowledge
 
 ### ES3
 
-- :new:[[ES3]ECMA-262-3_Closure](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES3/%5BES3%5DECMA-262-3_Closure.md)
-- :new:[[ES3]ECMA-262-3_Function](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES3/%5BES3%5DECMA-262-3_Function.md)
-- :new:[[ES3]ECMA-262-3_This](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES3/%5BES3%5DECMA-262-3_This.md)
-- :new:[[ES3]ECMA-262-3_ScopeChain](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES3/%5BES3%5DECMA-262-3_ScopeChain.md)
+- [[ES3]ECMA-262-3_Closure](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES3/%5BES3%5DECMA-262-3_Closure.md)
+- [[ES3]ECMA-262-3_Function](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES3/%5BES3%5DECMA-262-3_Function.md)
+- [[ES3]ECMA-262-3_This](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES3/%5BES3%5DECMA-262-3_This.md)
+- [[ES3]ECMA-262-3_ScopeChain](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES3/%5BES3%5DECMA-262-3_ScopeChain.md)
   
 <br/>
 
 ### ECMA2015(ES6)
 
-- :new: [Arrow-Function](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Arrow-Function.md)
-- :new: [Async-Await](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Async-Await.md)
-- :new: [Binary & Octal Literals](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Binary&Octal_Literals.md)
-- :new: [Block Scope : let, const](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Block_Scope(Let%2C%20Const).md)
-- :new: [Classes](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Classes.md)
-- :new: [Destructuring](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Destructuring.md)
-- :new: [Fat_Arrows](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Fat_Arrows.md)
-- :new: [Modules](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Modules.md)
-- :new: [Object](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Object.md)
-- :new: [Promise 1](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Promise_1.md)
-- :new: [Promise 2](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Promise_2.md)
-- :new: [Spread_Operator](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Spread_Operator.md)
-- :new: [Spread](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Spread.md)
-- :new: [Template String ``](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Template_String(BackTick).md)
+- [Arrow-Function](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Arrow-Function.md)
+- [Async-Await](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Async-Await.md)
+- [Binary & Octal Literals](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Binary&Octal_Literals.md)
+- [Block Scope : let, const](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Block_Scope(Let%2C%20Const).md)
+- [Classes](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Classes.md)
+- [Destructuring](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Destructuring.md)
+- [Fat_Arrows](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Fat_Arrows.md)
+- [Modules](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Modules.md)
+- [Object](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Object.md)
+- [Promise 1](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Promise_1.md)
+- [Promise 2](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Promise_2.md)
+- [Spread_Operator](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Spread_Operator.md)
+- [Spread](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Spread.md)
+- [Template String ``](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Template_String(BackTick).md)
 
 <br/>
 
@@ -90,7 +90,7 @@ Space for  making up Frond-End knowledge
 - [Event Delegation](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Event%20Delegation.md)
 - [Javascript 메모리관리(가비지 컬렉션)](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Javascript_%EB%A9%94%EB%AA%A8%EB%A6%AC%EA%B4%80%EB%A6%AC.md)
 - [Javascript BuildTool](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Javascript_BuildTool.md)
-- :new:[Javascript Engine](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Javascript_Engine.md)
+- [Javascript Engine](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Javascript_Engine.md)
 - [Mouse Event](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Mouse_Event.md)
 - [NPX](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/NPX.md)
 - [Object 생성자는 사용하지 말자](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Problem_of_new_Object.md)
@@ -101,6 +101,8 @@ Space for  making up Frond-End knowledge
 - [Strict_Mode](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Strict_Mode.md)
 - [Throttle and Debounce](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Throttle_and_Debounce.md)
 - [WebWorker(간단하게 예제)](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/WebWorker.md)
+- :new: [Basic series Callback](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_1_CallStack.md)
+- :new: [Basic series Type](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_2_Type.md)
 
 <br/>
 
@@ -137,6 +139,22 @@ Space for  making up Frond-End knowledge
 
 - [CORS(Cross-Origin Resource Sharing)](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Security/CORS(Cross-Origin%20Resource%20Sharing).md)
 - [XSS와 CSRF](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Security/XSS%EC%99%80%20CSRF.md)
+
+
+### TypeScript
+
+- :new: [Basic_Type](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DBasic_Type.md)
+
+
+### Vue
+
+- :new: [Vue LifeCycle](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Vue/Vue_LifeCycle.md)
+  
+### Web Component
+
+- :new: [웹 컴포넌트란 무엇인가?](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Web/Web_Components_1.md)
+- :new: [HTML templates](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Web/Web_Components_2.md)
+- :new: [Creating a Custom element](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Web/Web_Components_3.md)
 
 ## FEConf 2018
 
