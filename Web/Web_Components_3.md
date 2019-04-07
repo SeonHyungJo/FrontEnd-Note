@@ -220,6 +220,8 @@ Getter와 Setter는 HTML 요소의 `open` 속성과 DOM 객체의 속성을 동�
 
 :point_right: [간단한 예제 살펴보기](https://codepen.io/seonhyungjo/pen/LavXvY)
 
+---
+
 #### Reference
 
 - [https://css-tricks.com/creating-a-custom-element-from-scratch/](https://css-tricks.com/creating-a-custom-element-from-scratch/)

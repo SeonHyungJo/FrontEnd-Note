@@ -132,3 +132,9 @@ shadowRoot는 `<slot>` 요소를 사용하여 포함 된 문서의 내용을 포
 ### 예제
 
 [https://codepen.io/seonhyungjo/pen/NJJMyJ](https://codepen.io/seonhyungjo/pen/NJJMyJ)
+
+---
+
+#### Reference
+
+- [An Introduction to Web Components](https://css-tricks.com/an-introduction-to-web-components/)

@@ -182,8 +182,8 @@ Template에 대한 흥미로운 점 중 하나는 HTML을 포함 할 수 있다�
 
 게속 보면서 느끼는 것은 정말로 **Vue**와 많이 닮았다는 것이었다. **Vue**가 이것을 사용해서 만들었다는 말을 들었던거 같은데
 
-<br/>
+---
 
-#### reference
+#### Reference
 
 - [https://css-tricks.com/crafting-reusable-html-templates/](https://css-tricks.com/crafting-reusable-html-templates/)
