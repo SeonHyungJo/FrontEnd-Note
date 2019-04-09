@@ -87,6 +87,7 @@ Space for  making up Frond-End knowledge
 - [Array_like_Object](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Array_like_Object.md)
 - :new: [Basic series Callback](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_1_CallStack.md)
 - :new: [Basic series Type](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_2_Type.md)
+- :new: [Basic series Function](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_3_Function.md)
 - [CallBack Hell](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/CallBack_Hell.md)
 - [Call By Reference](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/CallByReference.md)
 - [Control_CSSOM](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Control_CSSOM.md)
