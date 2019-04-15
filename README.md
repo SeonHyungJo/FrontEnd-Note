@@ -88,6 +88,7 @@ Space for  making up Frond-End knowledge
 - :new: [Basic series Callback](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_1_CallStack.md)
 - :new: [Basic series Type](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_2_Type.md)
 - :new: [Basic series Function](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_3_Function.md)
+- :new: [Basic series Module](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_4_Module.md)
 - [CallBack Hell](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/CallBack_Hell.md)
 - [Call By Reference](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/CallByReference.md)
 - [Control_CSSOM](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Control_CSSOM.md)
@@ -153,7 +154,9 @@ Space for  making up Frond-End knowledge
 
 ### TypeScript
 
+- :new: [About_Typscript](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DAbout_Typscript.md)
 - :new: [Basic_Type](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DBasic_Type.md)
+
 
 <br/>
 
