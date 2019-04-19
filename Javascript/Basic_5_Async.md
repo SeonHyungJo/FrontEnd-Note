@@ -23,7 +23,7 @@
 - 브라우저의 비활성탭에서 실행되도록 앱남기기(멈추지 않고 계속해서 실행이 된다.)
 - 최적화되지 않은 전체 코드베이스
 
-[Async_1](/assets/image/Async_1.png)
+![Async_1](/assets/image/Async_1.png)
 
 위의 사진을 간단하게 보면 `dummyMethod1()` 이 오래 걸리면 자바스크립트의 이벤트 루프는 본연의 특징으로 인해서 스택에 걸려버렸다. 이런 상황이 되면 실행하기 위해서 기다리는 방법밖에 없다. 
 
@@ -35,7 +35,7 @@
 
 `setTimeout` 은 `setInterval` 을 한 번 실행하는 것과 동일하다.
 
-[Async_1](/assets/image/Async_2.png)
+![Async_2](/assets/image/Async_2.png)
 
 위에서 했던 내용을 이번에는 `setTimeout` 의 재귀적 호출로 해보자 그렇게 된다면 결국 `setTimeout` 의  `CallBack Function` 에 `setTimeout` 이 다시 불리는 구조가 될 것이다. 이렇게 만들어서 실행을 한다면 우리가 생각했던 것과 더욱이 달라질 것이다. `setInterval` 은 내가 정한 시간에 맞춰서 CallBack을 실행 하려고 큐에 담았을 것이다. 그러나 `setTimeout` 은 `callback function`이 불려야 다음 `setTimeout` 이 실행이 될 수 있는 조건이 되어 `interval` 보다 지연이 더 심해 질 수 있다.
 
