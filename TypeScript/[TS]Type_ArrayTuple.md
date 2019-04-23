@@ -29,10 +29,10 @@ const myFavoriteBeers: Array<string> = ['Imperial Stout', 'India Pale Ale', 'Wei
 튜플 타입을 이용해서 원소의 수와 각 원소의 타입이 정확히 지정된 배열의 타입을 정의할 수 있다.
 
 ```ts
-const nameAndHeight: [string, number] = ['안희종', 176]
+const nameAndHeight: [string, number] = ['안희종', 27]
 ```
 
-> 타입스크립트 2.6 이하 버전에서는 튜플 타입은 정확한 원소 개수를 보장하지 않게 변경이 되었다. 예를 들어 다음과 같은 코드가 허용되었다. `const nameAndHeight: [string, number] = ['안희종', 176, true];`
+> 타입스크립트 2.6 이하 버전에서는 튜플 타입은 정확한 원소 개수를 보장하지 않게 변경이 되었다. 예를 들어 다음과 같은 코드가 허용되었다. `const nameAndHeight: [string, age] = ['조선형', 27, true];`
 
 ```ts
 let tuple: [ boolean, number ] = [ true, 0 ];
