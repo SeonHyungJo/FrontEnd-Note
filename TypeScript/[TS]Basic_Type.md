@@ -1,13 +1,16 @@
 # [TS] 기본 타입에 대해서
 
-자바스크립트를 하게 되면 당연하게 마주하는 문제는 타입에 관한 이슈와 좀 더 oop스럽게 짤 수 없을까 하는 생각일 것이다. 그런 단계를 이르게 되면 당연하게 한번쯤은 `TypeScript` 라는 아이를 생각하게 된다. 
-<br/>
+> 최대한 내가 이해하는만큼 적도록 노력하겠습니다. 
+> 같이 공부하는 입장에서 적겠습니다.
 
-저도 이번 기회에 한번 훑어보려고 합니다.(모든 내용의 기준은 `TypeScript` 공식 사이트 `HandBook` 기준입니다.)
-<br/>
+자바스크립트를 하게 되면 당연하게 마주하는 문제는 타입에 관한 이슈와 좀 더 OOP스럽게 짤 수 없을까 하는 생각이다. 
+
+그런 단계를 이르게 되면 당연하게 한번쯤은 `TypeScript` 라는 아이를 생각하게 된다. 
+
+저도 이번 기회에 한번 공부하려고 합니다.
+(모든 내용의 기준은 `TypeScript` 공식 사이트 `HandBook` 기준입니다.)
 
 `TypeScript` 의 기능들은 크게 보면 **정적 타이핑과 ECMAScript** 구현으로 나뉠 수 있다.
-<br/>
 
 - `Type annotation` & 정적 타입 체크
 - 타입 추론
@@ -32,11 +35,7 @@
 let isDone: boolean = false;
 ```
 
-기본적으로 타입 선언은 콜론`(:)` 를 쓰고 뒤에 타입을 선언하면 된다.
-<br/>
-
-생각보다 타입을 선언하는 방법은 간단하게 되어있다.
-<br/>
+기본적으로 타입 선언은 콜론`(:)` 를 쓰고 뒤에 타입을 선언하면 된다. 생각보다 타입을 선언하는 방법은 간단하게 되어있다.
 
 함수를 사용할 때도 콜론`(:)` 을 사용해서 나타내면 그런데 모양새를 어째 이상하다.(처음보는 내 기준인 것 같다)
 
@@ -46,9 +45,11 @@ function echo(param: string): string {
 }
 ```
 
+<br/>
+
 ## 왜 Wrapper 객체를 사용하면 안되나?
 
-`JavaScript` 에서는 `JavaScript primitive type`들에 대해 `Wrapper` 객체를 제공한다. TypeScript에서도 사용이 가능하다.
+`JavaScript` 에서는 `JavaScript primitive type`들에 대해 `Wrapper` 객체를 제공한다. `TypeScript` 에서도 사용이 가능하다.
 
 ```ts
 const isLiar: boolean = true; // OK
@@ -141,108 +142,13 @@ create(undefined); // Error
 
 ```ts
 let onlyNull: null = null;
+
 onlyNull = undefined; // OK
 onlyNull = false; // error: Type 'boolean' is not assignable to type 'null'.
 ```
 
 공식 문서에 있다고 한다. 그런데 `Null`, `Undefined`로 선언을 하면 어디서 사용을 하는 것일까? 아직까지 경험이 없어서 모르겠다.
-<br/>
 
-## TypeScript 추가된 타입
-
-### Tuple
-
-```ts
-let tuple: [ boolean, number ] = [ true, 0 ];
-tuple.concat([ false, 1 ]);
-tuple.push('string'); // Error: Argument of type 'string' is not assignable to parameter of type 'number | boolean
-```
-
-`Tuple`의 기본적인 성격은 `Array`랑 동일하다. 차이점은 요소로 가질 수 있는 타입이 여러가지로 나뉠 수 있다는 것이다. 위의 `Tuple`은 `boolean, number`만 받을 수 있는 `Tuple`이다. 그러나 3번째 줄에서 `string` 타입을 추가하려고 하면서 에러가 생겼다.
-<br/>
-
-에러메시지를 보면 타입이 `number`나 `boolean`이 아니기에 할당할 수 없다고 한다. 
-<br/>
-
-순서에 관계없이 선언된 두 종류의 타입 중 하나면 요소가 될 수 있는 건가? 라는 생각을 할 수 있다. 맞다 선언된 타입중에 하나이면 된다. 
-<br/>
-
-그렇다면 순서는 상관이 없을까? 아래는 똑같은 코드를 선언 순서만 바꿨다.
-
-```ts
-let tuple: [ boolean, number ] = [ 0, true ]; //Error
-
-let tupleAdd: [ boolean, number ] = [ true, 0 ];
-tupleAdd.concat([ 1, false ]);
-```
-
-첫번째의 경우에서는 에러가 발생하게 되고, 두번째 변수에서는 어떤 에러도 발생하지 않는다. 그렇다면 이렇게 정리를 할 수 있을 듯하다.
-<br/>
-
-**=> 처음에 변수에 할당하는 것들은 타입선언 순서에 맞게 들어가야하며 그 뒤에 들어가는 것은 타입에 맞기만 하면 순서가 상관없다는 것이다.**
-
-### Any
-
-타입명 그대로 어느것이든 들어갈 수 있다.
-그런데 `TypeScript` 를 사용하는데 이건 최대한 안사용하는게 좋을 듯 하다.
-
-```ts
-let notSure: any = 4;
-notSure = "maybe a string instead";
-notSure = false; // okay, definitely a boolean
-```
-
-### Void
-
-클래스에서 리턴타입으로 많이 사용하던 것이 아닌가? 기존의 자바스크립트에서는 `a`태그에서 다른 페이지로 이동하지 않기 위해서 `javascript: void 0` 이런식으로만 사용을 하고 있었다. 그런데 이제는 타입스크립트에서는 본래의 형태로 사용이 되고있다.
-
-```ts
-function log(arr): void {
- console.log(arr.join(', '));
-}
-```
-
-정말 오랜만에 보는 광경인가? `script` 언어에서 사용하게 될 줄이야
-<br/>
-
-### Enum
-
-```ts
-enum Fruit { Apple, Banana, Melon };
-let fruit: Fruit = Fruit.Apple;
-```
-
-`Enum` 은 어떤 변수에 값으로 할당할 수 있는 요소들의 집합이다. 타 언어에서 보던 `Enumertaion`과 흡사한 개념이다. 다음과 같은 문법을 가진다.
-
-### Never
-
-이것 또한 어디에서 사용해야 할지
-어떤 타입도 들어갈 수 없다.
-
-```ts
-let neverVar: never = null; // Error: Type 'null' is not assignable to type 'never
-```
-
-## Type Assertions
-
-간단하게 `Type Cast` 이다. 타입을 다른 타입으로 변경을 하는 것이다.
-
-```ts
-// 방법 1
-let someValue: any = "this is a string";
-let strLength: number = (<string>someValue).length;
-```
-
-```ts
-// 방법 2
-let someValue: any = "this is a string";
-let strLength: number = (someValue as string).length;
-```
-
-위와 같이 하게 되면 타입을 변경해서 해당타입의 메소드를 사용할 수 있다.
-<br/>
-
-다음에는 `Interface`에 대해서 보려고 한다.
 
 ---
 
