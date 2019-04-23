@@ -16,7 +16,7 @@ Space for  making up Frond-End knowledge
 ### Browser
 
 - [웹 브라우저 작동 원리](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/%EC%9B%B9_%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80_%EC%9E%91%EB%8F%99_%EC%9B%90%EB%A6%AC.md)
-- :new:  [최신_브라우저의_내부_살펴보기](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/최신_브라우저의_내부_살펴보기.md)
+- [최신_브라우저의_내부_살펴보기](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/최신_브라우저의_내부_살펴보기.md)
 - [하드웨어 가속화](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4_%EA%B0%80%EC%86%8D%ED%99%94.md)
 - [Cookie Session Local](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/Cookie%26Storage.md)
 - [DOM이란?](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/DOM.md)
@@ -156,14 +156,17 @@ Space for  making up Frond-End knowledge
 ### TypeScript
 
 - :new: [About_Typscript](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DAbout_Typscript.md)
-- :new: [Basic_Type](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DBasic_Type.md)
+- :new: [Type_Basic](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DType_Basic.md)
+- :new: [Type_Array Tuple](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DType_ArrayTuple.md)
+- :new: [Type_Object](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DType_Object.md)
+- :new: [Type_Alias](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DType_Alias.md)
 
 
 <br/>
 
 ### Vue
 
-- :new: [Vue LifeCycle](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Vue/Vue_LifeCycle.md)
+- [Vue LifeCycle](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Vue/Vue_LifeCycle.md)
 
 <br/> 
 
