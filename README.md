@@ -92,6 +92,7 @@ Space for  making up Frond-End knowledge
 - :new: [Basic series Event Loop](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_5_Event_Loop.md)
 - :new: [Basic series Async](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_6_Async.md)
 - :new: [Basic series Javascript Engine](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_7_Engine.md)
+- :new: [Basic series Bitwise Operator](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_8_Bitwise_Operator.md)
 - [CallBack Hell](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/CallBack_Hell.md)
 - [Call By Reference](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/CallByReference.md)
 - [Control_CSSOM](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Control_CSSOM.md)
