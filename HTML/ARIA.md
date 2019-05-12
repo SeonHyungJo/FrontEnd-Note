@@ -1,15 +1,15 @@
 # ARIA(Accessible Rich Internet Applications)
 
-ARIA란 웹 콘텐츠와 웹 어플리케이션을 제작할 때 누구든 쉽게 접근할수 있도록 하는 접근성 향상 방법 중 하나이다.  ARIA를 사용하여 내비게이션 랜드마크, 위젯, 서식 힌트, 에러메시지,  실시간 콘텐츠 업데이트 등을 표현하여 **접근성**을 부여한다.
+ARIA란 웹 콘텐츠와 웹 어플리케이션을 제작할 때 누구든 쉽게 접근할수 있도록 하는 접근성 향상 방법 중 하나이다. ARIA를 사용하여 내비게이션 랜드마크, 위젯, 서식 힌트, 에러메시지,  실시간 콘텐츠 업데이트 등을 표현하여 **접근성**을 부여한다.
 
-ARIA는 접근성 관련 속성(attribute)이며, HTML에 최적화 되어 있다. `role` 속성을 사용하여 객체(article, alert, slider 등등)의 일반 타입을 정의할 수 있다. 이 외에도 ARIA 속성을 추가로 사용하여 서식에 관한 설명이나 상태바의 현재 값을 제공하는 등 유용한 프로퍼티들을 제공한다.
+ARIA는 접근성 관련 **속성(attribute)**이며, HTML에 최적화 되어 있다. `role` 속성을 사용하여 객체(article, alert, slider 등등)의 일반 타입을 정의하고, 이 외 ARIA 속성을 추가로 사용하여 서식에 관한 설명이나 상태바의 현재 값을 제공하는 등 유용한 프로퍼티들을 제공한다.
 
 > [role 종류에 대해서 자세히 알아보기](https://www.w3.org/TR/wai-aria-1.1/#role_definitions) <br/>
 > [ARIA_Techniques - MDN 문서](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques)
 
-대부분의 브라우저들과 스크린리더 기기는 ARIA를 지원한다. 그러나 구현방식이 가지각색이며 지원을 하더라도, 오래된 기기 혹은 브라우저의 경우에는 제대로 적용되지 않는다. 애플리케이션의 기능을 우아하게 저하시키는 (degrades gracefully) 안전한 ARIA를 사용하거나, 사용자에게 기기를 최신 버전으로 업그레이드할 것을 요청해야 한다.
+대부분의 브라우저들과 스크린 리더 기기는 ARIA를 지원한다. 그러나 구현방식이 각각 상이해 지원을 하더라도, 오래된 기기 혹은 브라우저의 경우에는 제대로 적용되지 않는다. 애플리케이션의 기능을 우아하게 저하시키는 (degrades gracefully) 안전한 ARIA를 사용하거나, 사용자에게 기기를 최신 버전으로 업그레이드할 것을 요청해야 한다.
 
-**role** 속성은, **tabIndex**(접근성 향상 중 하나) 속성과 항상 같은 곳에서 적용되어야 한다. **그래야 설정된 role이 의도된 element에서 정확히 수행될 수 있다**. ARIA를 통해 바꿀 수 있는 것은 오직, **Accessibility Tree** 뿐이다. element의 외형, 동작, focusability, keyboard event handling 등등 다른 것은 아무것도 바뀌지 않는다.
+**role** 속성은, **tabIndex**(접근성 향상 중 하나) 속성과 항상 같은 곳에서 적용되어야 한다. **그래야 설정된 role이 의도된 element에서 정확히 수행될 수 있다**. ARIA를 통해 바꿀 수 있는 것은 오직, **Accessibility Tree** 뿐이다. Element의 외형, 동작, focusability, keyboard event handling 등등 다른 것은 아무것도 바뀌지 않는다.
 <br/>
 
 ## ARIA 레이블과 관계
@@ -86,7 +86,7 @@ DOM에 있는 Element로는 집합의 크기를 결정할 수 없을 때(예: �
 
 <br/>
 
-## aria-hidden
+### aria-hidden
 
 사용자를 위한 사용 환경의 미세 조정에서 중요한 또 다른 기술은 페이지에서 관련 부분만 노출시키는 것입니다. DOM의 한 부분이 접근성 API에 노출되지 않도록 하는 방법은 여러 가지가 있다.
 
@@ -120,7 +120,7 @@ DOM에 있는 Element로는 집합의 크기를 결정할 수 없을 때(예: �
 
 <br/>
 
-## aria-live
+### aria-live
 
 개발자는 **`aria-live`** 를 사용해 페이지 중 어떤 부분을 '라이브'로 표시할 수 있다. 즉, 사용자가 페이지를 탐색하다가 그저 우연히 그런 '라이브' 부분을 발견하는 것이 아니라, 페이지의 어느 위치에 있든 상관없이 새롭게 업데이트된 정보를 사용자에게 즉시 알릴 수 있다. **`aria-live`** 속성을 가진 Element가 있는 경우 페이지에서 이런 Element와 그 하위 항목을 포함한 부분을 *라이브 영역*이라고 한다.
 
