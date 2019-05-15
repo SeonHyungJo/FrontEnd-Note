@@ -1,0 +1,9 @@
+pull_request_rules:
+  - name: automatic merge on review
+    conditions:
+      - "#approved-reviews-by>=1"
+      - status-success=continuous-integration/travis-ci/pr
+      - base=master
+    actions:
+      merge:
+        method: merge
