@@ -45,9 +45,9 @@ DOM의 모양을 이해하는데 선행되는 자료구조는 **Tree 구조**이
 HTML 코드는 DOM과 똑같은 것으로 예상되지만 브라우저에서 생성한 DOM과는 엄연히 다르다. 예시로 우리가 작성한 코드 중 중대한 오류가 아닌 이상 브라우저가 자동으로 소스 코드의 오류를 수정한다. (Ex. tbody)
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/24274424/57984677-27eded80-7a99-11e9-8a67-62516944a1ab.png" alt="code1" style="max-width:45%;"/>
+  <img src="https://user-images.githubusercontent.com/24274424/57984677-27eded80-7a99-11e9-8a67-62516944a1ab.png" alt="code1" width="400"/>
 
-  <img src="https://user-images.githubusercontent.com/24274424/57984678-27eded80-7a99-11e9-8ebb-45d120464b0f.png" alt="code1_devtool" style="max-width:45%;"/>
+  <img src="https://user-images.githubusercontent.com/24274424/57984678-27eded80-7a99-11e9-8ebb-45d120464b0f.png" alt="code1_devtool" width="400"/>
 </p>
 위의 사진을 비교하게 되면 왼쪽은 실제 코드를 작성한 것이고 오른쪽은 실제 DOM으로 만들어진 모양이다. 실제로 tbody 태그를 작성하지 않았지만 만들어주는 것을 보여준다.
 
