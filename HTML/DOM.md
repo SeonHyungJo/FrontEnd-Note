@@ -28,7 +28,9 @@ DOM의 모양을 이해하는데 선행되는 자료구조는 **Tree 구조**이
 
 이름 그대로 Tree 구조는 나무가 땅에서 솟아 위로 뻗어 나가면서 가지를 치면서 나가는 모양으로, DOM은 거꾸로 있는 모양이다.
 
-![DOM_Tree](https://user-images.githubusercontent.com/24274424/57984687-291f1a80-7a99-11e9-811b-bc9b3b1dfef5.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/24274424/57984687-291f1a80-7a99-11e9-811b-bc9b3b1dfef5.png" alt="DOM_Tree"/>
+</p>
 > The HTML DOM Tree of Object(by w3school)
 <br/>
 
