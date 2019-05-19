@@ -55,19 +55,19 @@ HTML 코드는 DOM과 똑같은 것으로 예상되지만 브라우저에서 생
 
 - HTML 파일에 단어 하나라도 존재하더라도 브라우저는 이를 `html`과 `body` 으로 감싸고 `head`를 필수적으로 추가한다.
 
-<div> 
-  <img src="https://user-images.githubusercontent.com/24274424/57984679-27eded80-7a99-11e9-87bd-acc9fbafd3e3.png" alt="code2" style="width:45%;"/>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/24274424/57984679-27eded80-7a99-11e9-87bd-acc9fbafd3e3.png" alt="code2" width="400"/>
 
-  <img src="https://user-images.githubusercontent.com/24274424/57984680-28868400-7a99-11e9-8dbb-0bb56a3ad599.png" alt="code2_devtool" style="width:45%;"/>
-</div>
+  <img src="https://user-images.githubusercontent.com/24274424/57984680-28868400-7a99-11e9-8dbb-0bb56a3ad599.png" alt="code2_devtool" width="400"/>
+</p>
 
 - DOM을 생성하는 과정에서 여는 태그는 작성을 하고 닫는 태그를 작성하지 않는 경우 자동 생성하여 맞춰서 오류가 발생하지 않는다.
 
-<div> 
-  <img src="https://user-images.githubusercontent.com/24274424/57984681-28868400-7a99-11e9-95e4-f0c8797dfceb.png" alt="code3" style="width:45%;"/>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/24274424/57984681-28868400-7a99-11e9-95e4-f0c8797dfceb.png" alt="code3" width="400"/>
 
-  <img src="https://user-images.githubusercontent.com/24274424/57984682-28868400-7a99-11e9-93f5-68542db5cf5e.png" alt="code3_devtool" style="width:45%;"/>
-</div>
+  <img src="https://user-images.githubusercontent.com/24274424/57984682-28868400-7a99-11e9-93f5-68542db5cf5e.png" alt="code3_devtool" width="400"/>
+</p>
 
 그렇다면 우리가 작성한 코드가 실제 DOM으로 만들어진 것을 어디서 볼 수 있나?
 <br/>
