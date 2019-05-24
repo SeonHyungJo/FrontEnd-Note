@@ -1,5 +1,3 @@
-# DOM
-
 ![DOM](https://user-images.githubusercontent.com/24274424/57984686-291f1a80-7a99-11e9-9fbc-b2bbcc663209.png)
 
 들어가기에 앞서 먼저 BOM에 대해서 알아보자.
@@ -32,6 +30,42 @@ DOM의 모양을 이해하는데 선행되는 자료구조는 **Tree 구조**이
   <img src="https://user-images.githubusercontent.com/24274424/57984687-291f1a80-7a99-11e9-811b-bc9b3b1dfef5.png" alt="DOM_Tree"/>
 </p>
 > The HTML DOM Tree of Object(by w3school)
+<br/>
+
+DOM은...
+
+- 문서의 구조화된 표현을 제공하며 프로그래밍 언어가 DOM 구조에 접근할 수 있는 방법을 제공한다.
+- 문서 구조, 스타일, 내용 등을 변경할 수 있게 돕는다.
+
+우리가 위와같이 조작을 할 수 있는 이유는 DOM API를 제공하기 때문이다.
+아래의 사진은 Node 하위 구조를 보여주고 있다.
+
+![DOM 계층](https://web.stanford.edu/class/cs98si/img/dom_types.png)
+
+출처: [http://www.stanford.edu/class/cs98si/slides/the-document-object-model.html](http://www.stanford.edu/class/cs98si/slides/the-document-object-model.html)
+
+프로토타입 기반으로 본다면 아래와 같은 구조를 가진다.
+
+```js
+Object < EventTarget < Node < DocumentType < <!DOCTYPE html>(ElementNode)
+
+Object < EventTarget < Node < Element < HtmlElement < HtmlhtmlElement < html(ElementNode)
+```
+
+- 아래 코드와 같이 HTML Element Node는 상속(Object, EventTarget, Node, Element, HtmlElement, HTMLhtmlElement) 받은 모든 객체의 속성 및 메서드들을 사용할 수 있게 된다.
+
+```js
+const html = document.querySelector('html');
+
+console.log(html); // html
+console.log(html.__proto__); // HTMLhtmlElement
+console.log(html.__proto__.__proto__); // HtmlElement
+console.log(html.__proto__.__proto__.__proto__); // Elemenet
+console.log(html.__proto__.__proto__.__proto__.__proto__); // Node
+console.log(html.__proto__.__proto__.__proto__.__proto__.__proto__); // EventTarget
+console.log(html.__proto__.__proto__.__proto__.__proto__.__proto__.__proto__); // Object
+```
+
 <br/>
 
 ## DOM과 HTML 코드의 차이점
@@ -98,6 +132,8 @@ JavaScript를 사용해서 DOM을 조작할 수 있다. 실제로 JavaScript 엔
 
 #### Reference
 
+- [무하프로젝트](http://mohwaproject.tistory.com/)
+- [힘내서 공부해보자](https://shldhee.github.io/2018/04/08/DOM/)
 - [introduction to the dom](https://www.digitalocean.com/community/tutorials/introduction-to-the-dom)
 - [What’s the Document Object Model, and why you should know how to use it.](https://medium.freecodecamp.org/whats-the-document-object-model-and-why-you-should-know-how-to-use-it-1a2d0bc5429d)
 - [What is the DOM?](https://css-tricks.com/dom/)
