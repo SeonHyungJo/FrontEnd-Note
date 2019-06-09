@@ -25,6 +25,7 @@ Space for  making up Frond-End knowledge
 - [EventLoop_Advanced](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/EventLoop_Advanced.md)
 - [Reflow & Repaint](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/Reflow%26Repaint.md)
 - [표준모드 vs 쿽스모드](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/Standard%26QuirksMode.md)
+  [IndexedDB & WebSQL](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/IndexedDB_WebSQL.md)
 
 <br/>
 
@@ -81,6 +82,8 @@ Space for  making up Frond-End knowledge
 - [Head Meta](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/HTML/Head_Meta.md)
 - [HTTPS](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/HTML/HTTPS.md)
 - [Head Meta](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/HTML/TabIndex.md)
+
+<br/>
 
 ### JavaScript
 
