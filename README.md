@@ -3,10 +3,7 @@
 Space for  making up Frond-End knowledge
 
 **Chapter1 I'm beginner**
-
 **Chapter1.5 I'm Ambiguous steps**
-
-<br/>
 
 ## Contents
 
@@ -20,12 +17,11 @@ Space for  making up Frond-End knowledge
 - [최신 브라우저의 내부 살펴보기](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/최신_브라우저의_내부_살펴보기.md)
 - [하드웨어 가속화](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4_%EA%B0%80%EC%86%8D%ED%99%94.md)
 - [Cookie Session Local](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/Cookie%26Storage.md)
-- [DOM이란?](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/DOM.md)
 - [EventLoop](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/EventLoop.md)
 - [EventLoop_Advanced](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/EventLoop_Advanced.md)
 - [Reflow & Repaint](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/Reflow%26Repaint.md)
 - [표준모드 vs 쿽스모드](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/Standard%26QuirksMode.md)
-  [IndexedDB & WebSQL](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/IndexedDB_WebSQL.md)
+- [IndexedDB & WebSQL](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/IndexedDB_WebSQL.md)
 
 <br/>
 
@@ -78,10 +74,10 @@ Space for  making up Frond-End knowledge
 
 ### HTML
 
-- :new: [DOM](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/HTML/DOM.md)
+- [ARIA](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/HTML/ARIA.md)
 - [Head Meta](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/HTML/Head_Meta.md)
 - [HTTPS](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/HTML/HTTPS.md)
-- [Head Meta](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/HTML/TabIndex.md)
+- [TabIndex](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/HTML/TabIndex.md)
 
 <br/>
 
@@ -165,11 +161,11 @@ Space for  making up Frond-End knowledge
 ### TypeScript
 
 - :new: [About_Typscript](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DAbout_Typscript.md)
-- :new: [Type_Basic](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DType_Basic.md)
-- :new: [Type_Array Tuple](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DType_ArrayTuple.md)
-- :new: [Type_Object](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DType_Object.md)
 - :new: [Type_Alias](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DType_Alias.md)
-
+- :new: [Type_Array Tuple](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DType_ArrayTuple.md)
+- :new: [Type_Basic](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DType_Basic.md)
+- - :new: [Type_Function](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DType_Function.md)
+- :new: [Type_Object](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DType_Object.md)
 
 <br/>
 
