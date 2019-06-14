@@ -8,10 +8,3 @@ pull_request_rules:
       merge:
         method: merge
       delete_head_branch: {}
-
-  - name: Add Label Remove Label TEST
-    conditions:
-      - "#approved-reviews-by=0"
-    actions:
-      label:
-        add: ["test"]
