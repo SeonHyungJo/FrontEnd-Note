@@ -1,42 +1,49 @@
 # Object.create() & Object.assign()
 
-`Object.create()`는 기준이 되는 Object를 prototype으로 **새로운 객체를 생성**한다.
+## Object.create()
 
 ```js
 Object.create(prototype_object, propertiesObject)
 ```
 
-`Object.create()`는 주로 객체를 상속하기 위해 사용하는 메소드이다. 첫번째 인자를 상속하며, 두번째 인자의 속성을 추가적으로 구성할 수 있다.
+`Object.create()`는 기준이 되는 Object를 prototype으로 만들고 **새로운 객체를 생성**한다.
+
+`Object.create()`는 주로 객체를 상속하기 위해 사용하는 메서드다. 첫 번째 인자를 상속하며, 두 번째 인자의 속성들을 추가로 구성한다.
+
 <br/>
 
-### 2번째 인자로 구성요소
+### 두번째 인자 - 속성의 구성요소
 
-1. **`configurable`** 이 속성의 값을 변경할 수 있고, 대상 객체에서 삭제할 수도 있다면 `true`.기본값은 `false`.
-2. **`enumerable`** 이 속성이 대상 객체의 속성 열거 시 노출된다면 `true`.기본값은 `false`.
+공통의 구성요소는
 
-데이터 서술자는 다음 키를 선택사항으로 가집니다.
+1. **`configurable`** 속성의 값을 변경할 수 있고, 삭제할 수도 있다면 `true`로 설정한다. 기본값은 `false`.
+2. **`enumerable`** 속성이 대상 객체의 속성 열거 시 노출이 되게 하려면 `true`로 설정한다. 기본값은 `false`.
 
-1. **`value`** 속성에 연관된 값. 아무 유효한 JavaScript 값(숫자, 객체, 함수 등)이나 가능합니다.기본값은 `undefined`
-2. **`writable`**[할당 연산자]로 속성의 값을 바꿀 수 있다면 `true`.기본값은 `false`.
+데이터 서술을 하는 데 사용되는 키는
 
-접근자 서술자는 다음 키를 선택사항으로 가집니다.
+1. **`value`** 속성값. 아무 JavaScript 값(숫자, 객체, 함수 등)이나 가능하다. 기본값은 `undefined`
+2. **`writable`** 할당 연산자로 속성의 값을 바꿀 수 있다면 `true`로 설정한다. 기본값은 `false`.
 
-1. **`get`**속성 접근자로 사용할 함수, 접근자가 없다면 `undefined`. 
-   - 속성에 접근하면 이 함수를 매개변수 없이 호출하고, 그 반환값이 속성의 값이 됩니다. 이 때 `this` 값은 이 속성을 가진 객체(상속으로 인해 원래 정의한 객체가 아닐 수 있음)입니다. 기본값은 `undefined`.
-2. **`set`**속성 설정자로 사용할 함수, 설정자가 없다면 `undefined`. 
-   - 속성에 값을 할당하면 이 함수를 하나의 매개변수(할당하려는 값)로 호출합니다. 이 때 `this` 값은 이 속성을 가진 객체입니다.기본값은 `undefined`.
+접근자 서술을 하는 데 사용되는 키는
 
+1. **`get`** 속성 접근자로 사용할 함수, 접근자가 없다면 `undefined`. 
+   - 속성에 접근하면 이 함수를 매개변수 없이 호출하고, 반환 값이 속성의 값이 된다. 이때 `this` 값은 이 속성을 가진 객체=이다. 기본값은 `undefined`.
+2. **`set`** 속성 설정자로 사용할 함수, 설정자가 없다면 `undefined`. 
+   - 속성에 값을 할당하면 이 함수를 하나의 매개변수로 호출한다. 이때 `this` 값은 이 속성을 가진 객체이다. 기본값은 `undefined`.
 
 **`Object.create()`의 2번째 인자는 `Object.defineProperties()`를 따른다.**
+
 <br/>
 
 ---
 
-그 전에 `Object.defineProperties()`전에 `Object.defineProperty()`를 먼저 알아보자
+위의 구성요소는 이전에 사용하던 `Object.defineProperties()`에서 나오는 개념이다. 그 전에 `Object.defineProperties()`의 단일 설정 함수인 `Object.defineProperty()`를 살펴보자
+
+<br/>
 
 ### Object.defineProperty()
 
-`Object.defineProperty()` 정적 메서드는 객체에 직접 새로운 속성을 정의하거나 이미 존재하는 속성을 수정한 후, **그 객체를 반환합니다.**
+`Object.defineProperty()`는 객체에 직접 새로운 속성을 정의하거나 이미 존재하는 속성을 수정한 후, **그 객체를 반환한다.**
 
 ```js
 Object.defineProperty(obj, prop, descriptor)
@@ -44,11 +51,9 @@ Object.defineProperty(obj, prop, descriptor)
 
 - **`obj`** : 속성을 정의할 객체.
 - **`prop`** : 새로 정의하거나 수정하려는 속성의 이름 또는 `Symbol`.
-- **`descriptor`** : 
+- **`descriptor`** : 새로 정의하거나 수정하려는 속성을 기술하는 객체.
 
-새로 정의하거나 수정하려는 속성을 기술하는 객체.
-
-아래의 예시는 `Object.create()`에서 2번째 인자에 들어가는 항목의 예시를 포함해서 보여주고 있다.
+아래의 예제는 자세히 보아야 한다. 여러 개념이 들어가 있는 예제이다.
 
 ```js
 const obj = {
@@ -70,7 +75,7 @@ const descriptor = {
   }
 }
 
-const newObj = Object.defineProperty(obj, 'country', descriptor)
+const newObj = Object.defineProperty(obj, 'country', descriptor) // 기존의 속성에서 새로운 속성을 정의
 console.log('obj values => ',obj, obj.age, obj.country) // obj values =>  {age: 27} 27 ???
 console.log('newObj values => ',newObj, newObj.age, newObj.country) // newObj values =>  {age: 27} 27 ???
 console.log('oldCountry => ', oldCountry) // oldCountry =>  Yongin
@@ -81,6 +86,8 @@ newObj.country = 'Re Seoul'
 console.log('After newObj && obj values are => ', obj, obj.age, obj.country) // After newObj && obj values are =>  {age: 28, name: "sNyung"} 28 ???
 console.log('oldCountry => ', oldCountry) // oldCountry =>  Re Seoul
 ```
+
+<br/>
 
 ### Object.defineProperties()
 
@@ -100,31 +107,11 @@ Object.defineProperties(obj, {
     value: 'Hello',
     writable: false
   }
-  // etc. etc.
 });
 ```
 ---
 
-### `Object.create()` Sample
-
-```js
-prototypeObject = {
-  fullName: function(){
-    return this.firstName + " " + this.lastName		
-  }
-}
-var person = Object.create(prototypeObject)
-
-console.log(person) // Object with prototype object as prototypeObject and no properties
-
-// Adding properties to the person object
-person.firstName = "Virat";
-person.lastName = "Kohli";
-
-person.fullName() // Virat Kohli
-```
-
-### 2번째 인자 Sample
+### Object.create() - Sample 1
 
 ```js
 const prototypeObject = {
@@ -140,17 +127,22 @@ const person = Object.create(prototypeObject, {
     enumerable: true
   },
   'lastName': {
-    value: "Kohli",
+    value: "jo",
     writable: true,
     enumerable: true
   }
 })
     
-console.log(person) // {firstName: "sNyung", lastName: "Kohli"}
+console.log(person) // {firstName: "sNyung", lastName: "jo"}
 ```
 
-![image](https://user-images.githubusercontent.com/24274424/59957328-25384b00-94d2-11e9-8864-4b8268faf26f.png)
+![image](https://user-images.githubusercontent.com/24274424/59965008-b7c50280-9543-11e9-805e-4fcc55430d0e.png)
 
+<br/>
+
+### New VS Object.create()
+
+`Object.create()`와 `new Constructor()`는 꽤 비슷하지만, 다른 점이 있다. 다음은 이 둘의 차이를 보여주는 예제이다.
 
 ```js
 function Dog(){
@@ -170,33 +162,8 @@ console.log(maddie.pupper); // Pupper
 console.log(maddie.pupperino); // Pups.
 ```
 
-### New VS Object.create()
-
-`Object.create()`와 `new Constructor()` 는 꽤 비슷하지만, 다른 점이 있다. 다음은 이 둘의 차이를 보여주는 예제다.
-
-```js
-function Foo() {
-  this.bar = 42;
-}
-
-Foo.prototype.method = function () {
-  return this.bar
-};
-
-const newObj = new Foo(); // Foo constructor will not executed by Object.create
-const createObj = Object.create(Foo.prototype);
-
-console.log(newObj);
-console.log(createObj);
-
-console.log(newObj.method); // function
-console.log(createObj.method); // function
-
-console.log(newObj.bar); // 42
-console.log(createObj.bar); // undefined
-```
-
-성능상으로 new 생성자를 사용하는 것이 좋다라고 한다. 확실히 성능 테스트를 해보면 알수 있다.
+성능상으로 new 생성자를 사용하는 것이 좋다고 한다. 확실히 성능 테스트를 해보면 알 수 있다.
+<br/>
 
 ### 성능 테스트
 
@@ -217,7 +184,7 @@ for (let i = 0; i < 10000; i++) {
   obj = Object.create(propObj);
 }
 console.timeEnd('Object.create()');
-// Object.create(): 12.994140625ms
+// Object.create(): 약 12.994140625ms
 
 console.time('constructor function');
 var obj2;
@@ -225,7 +192,7 @@ for (let i = 0; i < 10000; i++) {
   obj2 = new Obj();
 }
 console.timeEnd('constructor function');
-// new: 2.379150390625ms
+// new: 약 2.379150390625ms
 ```
 
 <br/>
@@ -271,9 +238,9 @@ console.log(Motorcycle)
 
 <br/>
 
-## Object.assign()(진행중)
+## Object.assign()
 
-`Object.assign()` 메소드는 열거할 수 있는 하나 이상의 출처 객체로부터 대상 객체로 속성을 복사할 때 사용합니다. 대상 객체를 반환합니다.
+`Object.assign()` 메서드는 열거할 수 있는 하나 이상의 출처 객체로부터 대상 객체로 속성을 복사할 때 사용한다. 대상 객체를 반환한다.
 
 - **`target`** : 대상 객체.
 - **`sources`** : 하나 이상의 출처 객체.
@@ -285,9 +252,84 @@ const copy = Object.assign({}, obj);
 console.log(copy); // { a: 1 }
 ```
 
-깊은 클로닝에 대해서, Object.assign() 은 속성의 값을 복사하기때문에 다른 대안을 사용해야합니다. 출처 값이 객체에 대한 참조인 경우, 참조 값만을 복사합니다.
+`Object.assign()`은 첫 번째 인자로 들어오는 target을 대상으로 두 번째 이후로 들어오는 인자를 병합할 때 사용한다. 
+<br/>
 
-같은기능으로 ES6 문법의 Spread를 사용한다.
+### 예시
+
+같은 properties가 들어올 경우 마지막에 들어온 값이 덮어쓰게 된다.
+
+```js
+// app.js
+
+let o1 = { a: 21, b: 22, c: 24 };
+let o2 = { b: 23, c: 25 };
+let o3 = { c: 26 };
+
+let finalObj = Object.assign({}, o1, o2, o3);
+console.log(finalObj); // {a: 21, b: 23, c: 26}
+```
+
+그러나 안타깝게도 `Object.assign()`는 ES6 문법의 Spread Operator가 나오면서 관심이 많이 줄어들게 되었다.
+같은 기능을 포함하고 있는 ES6 문법의 Spread는 숙련도에 따라 다양하게 사용될 수 있다.
+
+가장 많이 사용되는 기능 3가지를 포함하고 있는 예시를 보게 되면,
+
+```js
+// Create Function with REST
+const add = function(...arg){
+  console.log('arg', arg)
+  arg.map(e => console.log(e))
+}
+
+// Create Object
+const obj = { a : 1, b : 2, c: 3, d: 4}
+// Create Arr + Spread
+const arr = ['a', ...Object.values(obj), 'b', 'c']
+console.log(...arr)
+add(...arr)
+
+const {a,b, ...rest} = obj
+console.log(a, b, rest)
+```
+
+위와 같이 `...`은 사용 방법에 따라 다양하게 사용될 수 있다. 더 많은 기능을 찾아보기를 바란다.
+<br/>
+
+### Polyfill
+
+```js
+Object.defineProperty(Object, "assign", {
+  value: function assign(target, varArgs) { // .length of function is 2
+    'use strict';
+    if (target == null) { // TypeError if undefined or null
+      throw new TypeError('Cannot convert undefined or null to object');
+    }
+
+    var to = Object(target);
+
+    for (var index = 1; index < arguments.length; index++) {
+      var nextSource = arguments[index];
+
+      if (nextSource != null) { // Skip over if undefined or null
+        for (var nextKey in nextSource) {
+          // Avoid bugs when hasOwnProperty is shadowed
+          if (Object.prototype.hasOwnProperty.call(nextSource, nextKey)) {
+            to[nextKey] = nextSource[nextKey];
+          }
+        }
+      }
+    }
+    return to;
+  },
+  writable: true,
+  configurable: true
+});
+```
+
+<br/>
+
+### Compat Table
 
 ![image](https://user-images.githubusercontent.com/24274424/59957367-9ed03900-94d2-11e9-80af-cfcad4784f78.png)
 
