@@ -85,17 +85,18 @@ Space for  making up Frond-End knowledge
 
 - [JavaScript](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript)
 - [Array_like_Object](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Array_like_Object.md)
-- :new: [Basic series Callback](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_1_CallStack.md)
-- :new: [Basic series Type](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_2_Type.md)
-- :new: [Basic series Function](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_3_Function.md)
-- :new: [Basic series Module](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_4_Module.md)
-- :new: [Basic series Event Loop](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_5_Event_Loop.md)
-- :new: [Basic series Async](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_6_Async.md)
-- :new: [Basic series Javascript Engine](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_7_Engine.md)
-- :new: [Basic series Bitwise Operator](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_8_Bitwise_Operator.md)
-- :new: [Basic series DOM](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_9_DOM.md)
-- :new: [Basic series Class](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_10_Class.md)
-- :new: [Basic series Call-Apply-Bind](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_11_Call-Apply-Bind.md)
+- [Basic series Callback](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_1_CallStack.md)
+- [Basic series Type](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_2_Type.md)
+- [Basic series Function](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_3_Function.md)
+- [Basic series Module](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_4_Module.md)
+- [Basic series Event Loop](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_5_Event_Loop.md)
+- [Basic series Async](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_6_Async.md)
+- [Basic series Javascript Engine](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_7_Engine.md)
+- [Basic series Bitwise Operator](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_8_Bitwise_Operator.md)
+- [Basic series DOM](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_9_DOM.md)
+- [Basic series Class](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_10_Class.md)
+- [Basic series Call-Apply-Bind](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_11_Call-Apply-Bind.md)
+- :new: [Basic series Object.create & Object.assign](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Object.create%26Object.assign.md)
 - [CallBack Hell](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/CallBack_Hell.md)
 - [Call By Reference](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/CallByReference.md)
 - [Control_CSSOM](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Control_CSSOM.md)
@@ -164,7 +165,7 @@ Space for  making up Frond-End knowledge
 - :new: [Type_Alias](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DType_Alias.md)
 - :new: [Type_Array Tuple](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DType_ArrayTuple.md)
 - :new: [Type_Basic](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DType_Basic.md)
-- - :new: [Type_Function](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DType_Function.md)
+- :new: [Type_Function](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DType_Function.md)
 - :new: [Type_Object](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DType_Object.md)
 
 <br/>
@@ -177,10 +178,10 @@ Space for  making up Frond-End knowledge
 
 ### Web Component
 
-- :new: [웹 컴포넌트란 무엇인가?](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Web/Web_Components_1.md)
-- :new: [HTML templates](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Web/Web_Components_2.md)
-- :new: [Creating a Custom element](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Web/Web_Components_3.md)
-- :new: [Encapsulating Style and Structure with Shadow DOM](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Web/Web_Components_4.md)
+- [웹 컴포넌트란 무엇인가?](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Web/Web_Components_1.md)
+- [HTML templates](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Web/Web_Components_2.md)
+- [Creating a Custom element](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Web/Web_Components_3.md)
+- [Encapsulating Style and Structure with Shadow DOM](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Web/Web_Components_4.md)
 
 <br/>
 
