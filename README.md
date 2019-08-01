@@ -78,6 +78,7 @@ Space for  making up Frond-End knowledge
 - [Head Meta](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/HTML/Head_Meta.md)
 - [HTTPS](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/HTML/HTTPS.md)
 - [TabIndex](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/HTML/TabIndex.md)
+- :new: [prefetch&preload](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/HTML/preload%26prefetch.md)
 
 <br/>
 
@@ -116,6 +117,7 @@ Space for  making up Frond-End knowledge
 - [Strict_Mode](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Strict_Mode.md)
 - [Throttle and Debounce](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Throttle_and_Debounce.md)
 - [WebWorker(간단하게 예제)](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/WebWorker.md)
+- :new: [window.histroy](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/window.history.md)
 
 
 <br/>
