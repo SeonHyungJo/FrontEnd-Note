@@ -94,7 +94,7 @@ JSConf는 처음이라 설레는 마음으로 모든 부스를 가보고 모든 
 
 > [Im-D](https://github.com/im-d)
 
-### p5.js 맛보기: 함께 만들어보는 인터랙티브 뮤직비디오(체험)
+## p5.js 맛보기: 함께 만들어보는 인터랙티브 뮤직비디오(체험)
 
 먼저 컨퍼런스에 이런 세션이 있다는 것이 신기했다. 보통은 강연을 듣기만 한다면 이 세션은 오히려 참여를 한다는 점에서 색다르게 다가왔다.
 
@@ -104,7 +104,7 @@ p5라는 도구를 처음 봤는데 캔버스에 그림을 쉽게 그리도록 �
 - [직접 만들어 본 결과물(얼굴)](https://editor.p5js.org/SeonHyungJo/full/2q0tOT9Xx)
 - [직접 만들어 본 결과물(얼굴 + 비트)](https://editor.p5js.org/SeonHyungJo/full/YpVA-Vb55)
 
-### 함수형, Redux와 Canvas에 적용하면서 배워나가기
+## 함수형, Redux와 Canvas에 적용하면서 배워나가기
 
 Lunit에서 사용되는 Skill인 Typescript, React, Redux에 대해서 간단한 설명이 이루어졌다. 여기에 추가적으로 Redux에서 Functional Programming에 대해서 설명이 이루어졌다.
 
