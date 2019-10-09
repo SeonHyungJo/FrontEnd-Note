@@ -25,6 +25,13 @@ Space for  making up Frond-End knowledge
 
 <br/>
 
+### Conf
+
+- [JSConf2019](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Conf/JSConf2019.md)
+- [FEconf2017-RxJS](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Conf/FEconf2017-RxJS.md)
+
+</br>
+
 ### Design_Pattern
 
 - [Adapter_pattern](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Design_Pattern/Adapter.md)
@@ -78,7 +85,7 @@ Space for  making up Frond-End knowledge
 - [Head Meta](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/HTML/Head_Meta.md)
 - [HTTPS](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/HTML/HTTPS.md)
 - [TabIndex](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/HTML/TabIndex.md)
-- :new: [prefetch&preload](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/HTML/preload%26prefetch.md)
+- [prefetch&preload](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/HTML/preload%26prefetch.md)
 
 <br/>
 
@@ -117,8 +124,8 @@ Space for  making up Frond-End knowledge
 - [Strict_Mode](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Strict_Mode.md)
 - [Throttle and Debounce](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Throttle_and_Debounce.md)
 - [WebWorker(간단하게 예제)](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/WebWorker.md)
-- :new: [window.histroy](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/window.history.md)
-
+- [window.histroy](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/window.history.md)
+- :new: [worklet](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/worklet.md)
 
 <br/>
 
@@ -137,9 +144,9 @@ Space for  making up Frond-End knowledge
 
 <br/>
 
-### Module
+### Node
 
-- :new: [Stream](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Node/Stream.md)
+- [Stream](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Node/Stream.md)
 
 <br/>
 
@@ -148,8 +155,8 @@ Space for  making up Frond-End knowledge
 - [기본적인 렌더링 최적화 방법](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Performance/%EA%B8%B0%EB%B3%B8%EC%A0%81%EC%9D%B8%20%EB%A0%8C%EB%8D%94%EB%A7%81%20%EC%B5%9C%EC%A0%81%ED%99%94%20%EB%B0%A9%EB%B2%95.md)
 - [performance](https://github.com/SeonHyungJo/FrontEnd-Dev/tree/master/Performance)
 - [점진적향상 우아한하향](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Performance/%EC%A0%90%EC%A7%84%EC%A0%81%ED%96%A5%EC%83%81_%EC%9A%B0%EC%95%84%ED%95%9C%ED%95%98%ED%96%A5.md)
-- [Memoization](https://github.com/SeonHyungJo/FrontEnd-Dev/tree/master/Performance/Memoization.md)
 - [CSS 애니메이션 vs JS 애니메이션](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Performance/CSS%20%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98%20vs%20JS%20%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98.md)
+- [Memoization](https://github.com/SeonHyungJo/FrontEnd-Dev/tree/master/Performance/Memoization.md)
 
 <br/>
 
@@ -169,12 +176,12 @@ Space for  making up Frond-End knowledge
 
 ### TypeScript
 
-- :new: [About_Typscript](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DAbout_Typscript.md)
-- :new: [Type_Alias](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DType_Alias.md)
-- :new: [Type_Array Tuple](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DType_ArrayTuple.md)
-- :new: [Type_Basic](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DType_Basic.md)
-- :new: [Type_Function](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DType_Function.md)
-- :new: [Type_Object](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DType_Object.md)
+- [About_Typscript](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DAbout_Typscript.md)
+- [Type_Alias](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DType_Alias.md)
+- [Type_Array Tuple](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DType_ArrayTuple.md)
+- [Type_Basic](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DType_Basic.md)
+- [Type_Function](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DType_Function.md)
+- [Type_Object](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DType_Object.md)
 
 <br/>
 
