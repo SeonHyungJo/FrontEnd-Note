@@ -160,6 +160,5 @@ eval('x = 2', bar); // pass context, influence internal var "x"
 
 #### Reference
 
-- ECMA-262-3 in detail. Chapter 1. Execution Contexts.http://dmitrysoshnikov.com/ecmascript/chapter-1-execution-contexts/)
-
+- ECMA-262-3 in detail. Chapter 1. Execution Contexts.[http://dmitrysoshnikov.com/ecmascript/chapter-1-execution-contexts/)
 
