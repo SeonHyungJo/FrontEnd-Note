@@ -8,9 +8,9 @@ Java, C++와 같은 클래스 기반 객체지향 프로그래밍 언어와 다�
 
 결국 우리가 자바스크립트의 동작 원리를 이해하기 위해서는 프로토타입의 개념을 이해하고 있어야 한다는 것이다.
 
-클래스 기반의 객체지향 프로그램 언어는 객체 생성하기 전에 클래스를 정의하고 클래스를 통해서 객체(인스턴스)를 생성한다. 하지만 프로토타입 기반 객체지향 프로그래밍 언어는 클래스없이(class-less)도(ES6를 기준으로 Class가 추가되었다.) 객체를 생성할 수 있다.
+클래스 기반의 객체지향 프로그램 언어는 객체 생성하기 전에 클래스를 정의하고 클래스를 통해서 객체(인스턴스)를 생성한다. 하지만 프로토타입 기반 객체지향 프로그래밍 언어는 클래스 없이(class-less)도(ES6를 기준으로 Class가 추가되었다.) 객체를 생성할 수 있다.
 
-자바스크립트의 모든 객체는 자신의 부모 역할을 담당하는 객체와 연결되어 있다. 이것은 객체 지향의 상속 개념과 같이 부모 객체의 프로퍼티, 메서드를 상속받아 사용할 수 있게 한다. 이러한 부모 역할을 하는 객체를 **Prototype(프로토타입)객체** 또는 줄여서 **Prototype(프로토타입)** 이라고 한다.
+자바스크립트의 모든 객체는 자신의 부모 역할을 담당하는 객체와 연결되어 있다. 이것은 객체 지향의 상속 개념과 같이 부모 객체의 프로퍼티, 메서드를 상속받아 사용할 수 있게 한다. 이러한 부모 역할을 하는 객체를 **Prototype(프로토타입) 객체** 또는 줄여서 **Prototype(프로토타입)** 이라고 한다.
 
 Prototype 객체는 생성자 함수에 의해 생성된 각각의 객체에 공유 프로퍼티를 제공하기 위해 사용한다.
 
@@ -27,7 +27,7 @@ console.dir(person);
 
 ECMAScript spec에서는 
 
-> 자바스크립트의 모든 객체는 [[Prototype]]이라는 인터널 슬롯(internal slot)을 가진다. [[Prototype]]의 값은 null 또는 객체이며 상속을 구현하는데 사용된다. [[Prototype]] 객체의 데이터 프로퍼티는 get 액세스를 위해 상속되어 자식 객체의 프로퍼티처럼 사용할 수 있다. 하지만 set 액세스는 허용되지 않는다. 
+> 자바스크립트의 모든 객체는 [[Prototype]] 이라는 인터널 슬롯(internal slot)을 가진다. [[Prototype]] 의 값은 null 또는 객체이며 상속을 구현하는데 사용된다. [[Prototype]] 객체의 데이터 프로퍼티는 get 액세스를 위해 상속되어 자식 객체의 프로퍼티처럼 사용할 수 있다. 하지만 set 액세스는 허용되지 않는다. 
 
 라고 되어있다.
 
@@ -52,7 +52,7 @@ console.log(person .__proto__ === Object.prototype); // true
 
 함수도 객체이므로 [[Prototype]] 인터널 슬롯을 가진다. 그런데 **함수 객체는 일반 객체와 다르게 prototype 프로퍼티도 소유**하게 된다.
 
-> 주의해야 할 것은 prototype 프로퍼티는 프로토타입 객체를 가리키는 [[Prototype]] 인터널 슬롯은 다르다는 것이다. prototype 프로퍼티와 [[Prototype]]은 모두 프로토타입 객체를 가리키지만 관점의 차이가 있다.
+> 주의해야 할 것은 prototype 프로퍼티는 프로토타입 객체를 가리키는 [[Prototype]] 인터널 슬롯은 다르다는 것이다. prototype 프로퍼티와 [[Prototype]]은 모두 프로토타입 객체를 가리키지만, 관점의 차이가 있다.
 
 ```js
 function Person(name) {
@@ -120,7 +120,7 @@ var person = {
 console.log(person.hasOwnProperty('age')); // true
 ```
 
-`person` 객체는 `hasOwnProperty` 메서드를 가지고 있지 않으므로 에러가 발생하여야 하나 정상적으로 결과가 출력되었다. 이는 `person` 객체의 [[Prototype]]이 가리키는 링크를 따라가서 `person` 객체의 부모 역할을 하는 프로토타입 객체(`Object.prototype`)의 메서드 `hasOwnProperty`를 호출하였기 때문에 가능한 것이다.
+`person` 객체는 `hasOwnProperty` 메서드를 가지고 있지 않음으로 에러가 발생하여야 하나 정상적으로 결과가 출력되었다. 이는 `person` 객체의 [[Prototype]]이 가리키는 링크를 따라가서 `person` 객체의 부모 역할을 하는 프로토타입 객체(`Object.prototype`)의 메서드 `hasOwnProperty`를 호출하였기 때문에 가능한 것이다.
 
 ```js
 var person = {
@@ -136,7 +136,7 @@ console.log(Object.prototype.hasOwnProperty('hasOwnProperty')); // true
 
 ### 객체 리터럴 방식으로 생성된 객체의 프로토타입 체인
 
-객체생성방법은 3가지가 있다.
+객체생성 방법은 3가지가 있다.
 
 - 객체 리터럴
 - 생성자 함수
@@ -194,7 +194,7 @@ var square = function square(number) {
 };
 ```
 
-결국 함수 선언식, 함수 표현식 모두 함수 리터럴 방식을 사용한다. 함수  리터럴 방식은 `Function()` 생성자 함수로 함수를 생성하는 것을 단순화 시킨 것이다.
+결국 함수 선언식, 함수 표현식 모두 함수 리터럴 방식을 사용한다. 함수  리터럴 방식은 `Function()` 생성자 함수로 함수를 생성하는 것을 단순화시킨 것이다.
 
 > 즉, 3가지 함수 정의 방식은 결국 `Function()` 생성자 함수를 통해 함수 객체를 생성한다, 따라서 어떠한 방식으로 함수 객체를 생성하여도 모든 함수 객체의 prototype 객체는 `Function.prototype`이다. 생성자 함수도 함수 객체이므로 생성자 함수의 prototype 객체는 `Function.prototype`이다.
 
@@ -245,7 +245,7 @@ Person.prototype.sayHello = function(){
 foo.sayHello();
 ```
 
-생성자 함수 Person은 프로토타입 객체 Person.prototype와 prototype 프로퍼티에 의해 바인딩되어 있다. Person.prototype 객체는 일반 객체와 같이 프로퍼티를 추가/삭제가 가능하다. 위의 예에서는 Person.prototype 객체에 메서드 sayHello를 추가하였다. 이때 sayHello 메서드는 프로토타입 체인에 반영된다. 따라서 생성자 함수 Person에 의해 생성된 모든 객체는 프로토타입 체인에 의해 부모객체인 Person.prototype의 메서드를 사용할 수 있게 되었다.
+생성자 함수 Person은 프로토타입 객체 Person.prototype와 prototype 프로퍼티에 의해 바인딩 되어 있다. Person.prototype 객체는 일반 객체와 같이 프로퍼티를 추가/삭제가 가능하다. 위의 예에서는 Person.prototype 객체에 메서드 sayHello를 추가하였다. 이때 sayHello 메서드는 프로토타입 체인에 반영된다. 따라서 생성자 함수 Person에 의해 생성된 모든 객체는 프로토타입 체인에 의해 부모객체인 Person.prototype의 메서드를 사용할 수 있게 되었다.
 
 ## 원시 타입(Primitive data type)의 확장
 
@@ -267,7 +267,7 @@ console.log(str.toUpperCase());    // TEST
 console.log(strObj.toUpperCase()); // TEST
 ```
 
-원시 타입 문자열과 `String()` 생성자 함수로 생성한 문자열 객체의 타입은 분명이 다르다. 원시 타입은 객체가 아니므로 프로퍼티나 메서드를 가질수 없다. 하지만 **원시 타입으로 프로퍼티나 메서드를 호출할 때 원시 타입과 연관된 객체로 일시적으로 변환되어 프로토타입 객체를 공유하게 된다.**
+원시 타입 문자열과 `String()` 생성자 함수로 생성한 문자열 객체의 타입은 분명이 다르다. 원시 타입은 객체가 아니므로 프로퍼티나 메서드를 가질 수 없다. 하지만 **원시 타입으로 프로퍼티나 메서드를 호출할 때 원시 타입과 연관된 객체로 일시적으로 변환되어 프로토타입 객체를 공유하게 된다.**
 
 원시 타입은 객체가 아니므로 프로퍼티나 메서드를 직접 추가할 수 없다.
 
