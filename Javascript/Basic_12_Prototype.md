@@ -384,3 +384,4 @@ foo 객체의 gender 프로퍼티에 값을 할당하면 프로토타입 체인�
 #### Reference
 
 - [프로토타입](https://poiemaweb.com/js-prototype)
+
