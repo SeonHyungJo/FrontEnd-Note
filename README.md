@@ -1,9 +1,27 @@
-# FrontEnd-Dev😎
+# FE-Dev-Note
 
-Space for  making up Frond-End knowledge
+Space for making up Frond-End knowledge
 
-**Chapter1 I'm beginner**
-**Chapter1.5 I'm Ambiguous steps**
+~~Chapter1 I'm beginner~~
+~~Chapter1.5 I'm Ambiguous steps~~
+**Chapter2 Arrangement**
+
+---
+
+<div align="center">
+  <h2>🎉Created Javascript Book🎉</h2>
+  <strong>JS을 배울 수 있는 Book을 만들었어요</strong>
+
+  <h5>
+    <a href="https://seonhyungjo.github.io/Javascript-Book/">Read the Book</a>
+    <span> | </span>
+    <a href="http://snyung.com/">Go to Blog</a>
+  </h5>
+
+  <sub>Built with [sNyung](https://github.com/SeonHyungJo/)</sub>
+</div>
+
+---
 
 ## Contents
 
@@ -22,6 +40,12 @@ Space for  making up Frond-End knowledge
 - [Reflow & Repaint](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/Reflow%26Repaint.md)
 - [표준모드 vs 쿽스모드](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/Standard%26QuirksMode.md)
 - [IndexedDB & WebSQL](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/IndexedDB_WebSQL.md)
+
+<br/>
+
+### Concept
+
+- :new: [Cross Cutting](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Concept/Cross-Cutting.md)
 
 <br/>
 
@@ -93,18 +117,6 @@ Space for  making up Frond-End knowledge
 
 - [JavaScript](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript)
 - [Array_like_Object](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Array_like_Object.md)
-- [Basic series Callback](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_1_CallStack.md)
-- [Basic series Type](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_2_Type.md)
-- [Basic series Function](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_3_Function.md)
-- [Basic series Module](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_4_Module.md)
-- [Basic series Event Loop](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_5_Event_Loop.md)
-- [Basic series Async](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_6_Async.md)
-- [Basic series Javascript Engine](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_7_Engine.md)
-- [Basic series Bitwise Operator](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_8_Bitwise_Operator.md)
-- [Basic series DOM](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_9_DOM.md)
-- [Basic series Class](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_10_Class.md)
-- [Basic series Call-Apply-Bind](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Basic_11_Call-Apply-Bind.md)
-- :new: [Basic series Object.create & Object.assign](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Object.create%26Object.assign.md)
 - [CallBack Hell](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/CallBack_Hell.md)
 - [Call By Reference](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/CallByReference.md)
 - [Control_CSSOM](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Control_CSSOM.md)
@@ -117,15 +129,13 @@ Space for  making up Frond-End knowledge
 - [Mouse Event](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Mouse_Event.md)
 - [NPX](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/NPX.md)
 - [Object 생성자는 사용하지 말자](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Problem_of_new_Object.md)
-- [Prototype](https://github.com/SeonHyungJo/FrontEnd-Dev/tree/master/Javascript/Prototype.md)
 - [Proxy](https://github.com/SeonHyungJo/FrontEnd-Dev/tree/master/Javascript/Proxy.md)
-- [Reduce](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Reduce.md)
 - [StateManagement](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/StateManagement.md)
 - [Strict_Mode](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Strict_Mode.md)
 - [Throttle and Debounce](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/Throttle_and_Debounce.md)
 - [WebWorker(간단하게 예제)](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/WebWorker.md)
 - [window.histroy](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/window.history.md)
-- :new: [worklet](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/worklet.md)
+- [worklet](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/worklet.md)
 
 <br/>
 
@@ -197,25 +207,3 @@ Space for  making up Frond-End knowledge
 - [HTML templates](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Web/Web_Components_2.md)
 - [Creating a Custom element](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Web/Web_Components_3.md)
 - [Encapsulating Style and Structure with Shadow DOM](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Web/Web_Components_4.md)
-
-<br/>
-
-## FEConf 2018
-
-### Section1
-
-1. 미국 개발자, 그리고 한국 개발자
-2. Reduc-saga - 제너레이터, 사이드 이펙트, 채널
-3. **webGL**
-4. **웹폰트의 사용과 최적화**
-5. **개발자를 위한 UX programming**
-6. **Front-end 프로젝트의 Test code 경험기**
-
-### Secion2 
-
-1. **TC 39 스펙에 대한 주관적 참견 시점**
-2. 복붙없이 우리팀에 딱 맞는 엥귤러 프로젝트 만들기
-3. React Component와 D3 Object를 유기적으로 연결하는 전략
-4. **한편의 애니메이션 같은 CSS**
-5. **자체 polyfill.io서버 구축하여 프론트엔드 최적화 하기**
-6. 은밀하게 신속하게 React 포팅 성공기
