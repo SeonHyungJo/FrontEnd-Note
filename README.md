@@ -3,7 +3,9 @@
 Space for making up Frond-End knowledge
 
 ~~Chapter1 I'm beginner~~
+
 ~~Chapter1.5 I'm Ambiguous steps~~
+
 **Chapter2 Arrangement**
 
 ---
@@ -41,20 +43,15 @@ Space for making up Frond-End knowledge
 - [표준모드 vs 쿽스모드](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/Standard%26QuirksMode.md)
 - [IndexedDB & WebSQL](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/IndexedDB_WebSQL.md)
 
-<br/>
-
 ### Concept
 
-- :new: [Cross Cutting](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Concept/Cross-Cutting.md)
+- [Cross Cutting](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Concept/Cross-Cutting.md)
 
-<br/>
 
 ### Conf
 
 - [JSConf2019](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Conf/JSConf2019.md)
 - [FEconf2017-RxJS](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Conf/FEconf2017-RxJS.md)
-
-</br>
 
 ### Design_Pattern
 
@@ -63,17 +60,6 @@ Space for making up Frond-End knowledge
 - [MVC MVP MVVM](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Design_Pattern/MVC_MVP_MVVM.md)
 - [Promise_pattern](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Design_Pattern/Promise_pattern.md)
 - [Singleton_pattern](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Design_Pattern/Singleton.md)
-
-<br/>
-
-### ES3
-
-- [[ES3]ECMA-262-3_Closure](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES3/%5BES3%5DECMA-262-3_Closure.md)
-- [[ES3]ECMA-262-3_Function](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES3/%5BES3%5DECMA-262-3_Function.md)
-- [[ES3]ECMA-262-3_This](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES3/%5BES3%5DECMA-262-3_This.md)
-- [[ES3]ECMA-262-3_ScopeChain](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES3/%5BES3%5DECMA-262-3_ScopeChain.md)
-  
-<br/>
 
 ### ECMA2015(ES6)
 
@@ -93,15 +79,11 @@ Space for making up Frond-End knowledge
 - [Spread](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Spread.md)
 - [Template String ``](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/ES6/Template_String(BackTick).md)
 
-<br/>
-
 ### Functional Programming
 
 - Version2 [Functinonal Programming](https://github.com/SeonHyungJo/FrontEnd-Dev/tree/master/Functional_Programming)
 - [Currying](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Functional_Programming/Currying.md)
 - [Functional setState](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Functional_Programming/setState.md)
-
-<br/>
 
 ### HTML
 
@@ -110,8 +92,6 @@ Space for making up Frond-End knowledge
 - [HTTPS](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/HTML/HTTPS.md)
 - [TabIndex](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/HTML/TabIndex.md)
 - [prefetch&preload](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/HTML/preload%26prefetch.md)
-
-<br/>
 
 ### JavaScript
 
@@ -137,14 +117,10 @@ Space for making up Frond-End knowledge
 - [window.histroy](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/window.history.md)
 - [worklet](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Javascript/worklet.md)
 
-<br/>
-
 ### Language
 
 - [OOP](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Language/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D(OOP).md)
 - [Script Language](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Language/Script-Language.md)
-
-<br/>
 
 ### Module
 
@@ -152,13 +128,9 @@ Space for making up Frond-End knowledge
 - [Module](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Module/Module.md)
 - [Bundler History](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Module/Bundler_History.md)
 
-<br/>
-
 ### Node
 
 - [Stream](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Node/Stream.md)
-
-<br/>
 
 ### Performance
 
@@ -168,21 +140,15 @@ Space for making up Frond-End knowledge
 - [CSS 애니메이션 vs JS 애니메이션](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Performance/CSS%20%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98%20vs%20JS%20%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98.md)
 - [Memoization](https://github.com/SeonHyungJo/FrontEnd-Dev/tree/master/Performance/Memoization.md)
 
-<br/>
-
 ### Reactive
 
 - [Reactive](https://github.com/SeonHyungJo/FrontEnd-Dev/tree/master/Reactive)
-
-<br/>
 
 ### Security
 
 - [리만가설과 소수정리](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Security/%EB%A6%AC%EB%A7%8C%EA%B0%80%EC%84%A4%EA%B3%BC%20%EC%86%8C%EC%88%98%EC%A0%95%EB%A6%AC.md)
 - [CORS(Cross-Origin Resource Sharing)](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Security/CORS(Cross-Origin%20Resource%20Sharing).md)
 - [XSS와 CSRF](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Security/XSS%EC%99%80%20CSRF.md)
-
-<br/>
 
 ### TypeScript
 
@@ -193,13 +159,9 @@ Space for making up Frond-End knowledge
 - [Type_Function](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DType_Function.md)
 - [Type_Object](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/TypeScript/%5BTS%5DType_Object.md)
 
-<br/>
-
 ### Vue
 
 - [Vue LifeCycle](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Vue/Vue_LifeCycle.md)
-
-<br/> 
 
 ### Web Component
 
