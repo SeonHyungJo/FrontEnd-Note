@@ -2,11 +2,11 @@
 
 ## 브라우저 Rendering 과정
 
-![rendering](/assets/images/rendering.png)
+![rendering](/assets/image/rendering.png)
 
-브라우저는 화면을 Rendering하는 과정에는 **배치\(flow\)**, **그리기\(paint\)** 가 포함되어있다.
+브라우저는 화면을 Rendering하는 과정에는 **배치\(Laout\)**, **그리기\(Paint\)** 가 포함되어있다.
 
-> [브라우저 작동원리](/Browser/웹%20브라우저의%20작동%20원리.md)
+> [브라우저 작동원리](/Browser/웹_브라우저_작동_원리.md)
 
 ### [들어가기전에] 60fps 및 기기 새로 고침 빈도
 
@@ -58,9 +58,9 @@
 
 ## Laytout(Reflow)
 
-생성된 DOM 노드의 레이아웃이 변경될 때, 변경 후 영향을 받는 모든 노드를 다시 계산하고 렌더트리를 재생성한다.
+생성된 DOM 노드의 레이아웃이 변경될 때, 변경 후 영향을 받는 모든 노드를 다시 계산하고 Render Tree를 재생성한다.
 
-이러한 과정을 `Reflow`라 하고 `Reflow`가 일어나게 되면 위의 사진에서 보이듯이 `paint`, `composite`이 일어난다.
+이러한 과정을 `Reflow`라 하고 `Reflow`가 일어나게 되면 위의 사진에서 보이듯이 `paint`, `composite`이 연달아 일어난다.
 
 우리가 많이 사용하는 문법에는 강제로 Reflow를 일으키는 것들이 있다. 아래의 링크를 확인해보자.
 
