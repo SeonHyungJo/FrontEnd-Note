@@ -6,7 +6,7 @@
 
 나머지 3가지에 대해 알아보길 원하면 아래의 링크를 확인하면 됩니다.
 
-> [Cookie, Local Storage](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/Cookie_Storage_Local.md)
+> [Storage & Cookie](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/Storage&Cookie.md)
 
 <br/>
 
