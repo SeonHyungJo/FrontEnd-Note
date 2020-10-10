@@ -37,7 +37,7 @@ Space for making up Frond-End knowledge
 - [브라우저 내부 살펴보기](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/브라우저_내부_살펴보기.md)
 - [하드웨어 가속화](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4_%EA%B0%80%EC%86%8D%ED%99%94.md)
 - [Storage & Cookie](https://github.com/SeonHyungJo/FE-Dev-Note/blob/master/Browser/Storage&Cookie.md)
-- [IndexedDB & WebSQL](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/IndexedDB_WebSQL.md)
+- [IndexedDB & WebSQL](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/IndexedDB&WebSQL.md)
 - [EventLoop](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/EventLoop.md)
 - [EventLoop_Advanced](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/EventLoop_Advanced.md)
 - [Reflow & Repaint](https://github.com/SeonHyungJo/FrontEnd-Dev/blob/master/Browser/Reflow%26Repaint.md)
